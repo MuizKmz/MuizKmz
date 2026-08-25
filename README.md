@@ -95,8 +95,7 @@ Multifunction community bot — games, registration systems and automation utili
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=MuizKmz&show_icons=true&hide_border=true&hide_title=true&bg_color=0d1117&icon_color=a78bfa&text_color=94a3b8&ring_color=22d3ee">
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MuizKmz&layout=compact&hide_border=true&hide_title=true&langs_count=6&bg_color=0d1117&text_color=94a3b8">
+<img src="assets/stats.svg" alt="GitHub statistics" width="100%">
 
 <br><br>
 
