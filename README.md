@@ -97,8 +97,6 @@ Multifunction community bot — games, registration systems and automation utili
 
 <img src="assets/stats.svg" alt="GitHub statistics" width="100%">
 
-<br><br>
-
 <picture>
   <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/MuizKmz/MuizKmz/output/snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MuizKmz/MuizKmz/output/snake.svg">
@@ -118,8 +116,6 @@ Interested in **IoT · AI · Mobile · Full-Stack**? Say hi.
 <a href="https://github.com/MuizKmz"><img src="https://img.shields.io/badge/GitHub-0a0f1e?style=for-the-badge&logo=github&logoColor=22d3ee"></a>
 <a href="mailto:muizkeng@gmail.com"><img src="https://img.shields.io/badge/Email-0a0f1e?style=for-the-badge&logo=gmail&logoColor=a78bfa"></a>
 
-<br><br>
-
-<sub>Keep building. Keep learning. Keep improving.</sub>
+<img src="assets/footer.svg" alt="Keep building. Keep learning. Keep improving." width="100%">
 
 </div>

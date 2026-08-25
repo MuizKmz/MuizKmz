@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 64" width="1000" height="64" role="img" aria-label="Keep building. Keep learning. Keep improving.">
+  <title>Keep building. Keep learning. Keep improving.</title>
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080d1a"/><stop offset="0.5" stop-color="#0c1226"/><stop offset="1" stop-color="#080a14"/>
+    </linearGradient>
+    <linearGradient id="ftrace" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="240" y2="0">
+      <stop offset="0"   stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#e8fbff" stop-opacity="0.9"/>
+      <stop offset="1"   stop-color="#a78bfa" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate"
+                        values="-280 0; 1060 0" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+    <style>
+      .dot { animation: fpulse 2.6s ease-in-out infinite; }
+      .dot.r { animation-delay: -1.3s; }
+      @keyframes fpulse { 0%,100% { opacity:.25 } 50% { opacity:1 } }
+      @media (prefers-reduced-motion: reduce) { .dot { animation:none; opacity:.7 } }
+    </style>
+  </defs>
+
+  <rect width="1000" height="64" rx="14" fill="#090e1c"/>
+  <rect width="1000" height="64" rx="14" fill="url(#fbg)"/>
+
+  <rect x="70" y="0" width="860" height="1" fill="#1e293b"/>
+  <rect x="70" y="-0.5" width="860" height="2" fill="url(#ftrace)"/>
+
+  <circle class="dot"   cx="70"  cy="32" r="3" fill="#22d3ee"/>
+  <circle class="dot r" cx="930" cy="32" r="3" fill="#a78bfa"/>
+
+  <text x="500" y="37" text-anchor="middle" font-size="11.5" letter-spacing="3.2" fill="#64748b"
+        font-family="ui-monospace, SFMono-Regular, 'DejaVu Sans Mono', Menlo, Consolas, monospace">KEEP BUILDING<tspan fill="#22d3ee"> · </tspan>KEEP LEARNING<tspan fill="#a78bfa"> · </tspan>KEEP IMPROVING</text>
+
+  <rect x="0.75" y="0.75" width="998.5" height="62.5" rx="14" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+</svg>
