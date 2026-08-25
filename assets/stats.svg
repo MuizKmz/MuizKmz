@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="1000" height="240" role="img" aria-label="GitHub statistics for MuizKmz">
+<title>GitHub statistics for MuizKmz</title>
+<defs>
+  <linearGradient id="sbg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#080d1a"/><stop offset="0.5" stop-color="#0c1226"/><stop offset="1" stop-color="#080a14"/>
+  </linearGradient>
+  <linearGradient id="srule" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="300" y2="0">
+    <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#e8fbff" stop-opacity="0.9"/>
+    <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="-320 0; 1020 0" dur="4.5s" repeatCount="indefinite"/>
+  </linearGradient>
+  <clipPath id="barclip"><rect x="570" y="104" width="370" height="12" rx="6"/></clipPath>
+  <style>
+    .cell { animation: rise .8s ease-out backwards; }
+    .seg  { animation: grow .9s cubic-bezier(.2,.7,.3,1) backwards; transform-box: fill-box; transform-origin: left center; }
+    .c0{animation-delay:.05s}.c1{animation-delay:.15s}.c2{animation-delay:.25s}
+    .c3{animation-delay:.35s}.c4{animation-delay:.45s}.c5{animation-delay:.55s}
+    .s0{animation-delay:.10s}.s1{animation-delay:.20s}.s2{animation-delay:.30s}
+    .s3{animation-delay:.40s}.s4{animation-delay:.50s}.s5{animation-delay:.60s}
+    @keyframes rise { from { opacity:0; transform:translateY(8px) } to { opacity:1; transform:none } }
+    @keyframes grow { from { transform:scaleX(0) } to { transform:scaleX(1) } }
+    @media (prefers-reduced-motion: reduce) { .cell,.seg { animation:none } }
+  </style>
+</defs>
+
+<rect width="1000" height="240" rx="16" fill="#090e1c"/>
+<rect width="1000" height="240" rx="16" fill="url(#sbg)"/>
+
+<g font-family="ui-monospace, SFMono-Regular, 'DejaVu Sans Mono', Menlo, Consolas, monospace">
+  <text x="70" y="56" font-size="12" letter-spacing="3.4" fill="#5eead4">GITHUB  STATISTICS</text>
+  <text x="930" y="56" font-size="12" letter-spacing="1" fill="#475569" text-anchor="end">@MuizKmz</text>
+  <rect x="70" y="70" width="860" height="1" fill="#1e293b"/>
+  <rect x="70" y="69.5" width="860" height="2" fill="url(#srule)"/>
+
+  <g class="cell c0">
+    <text x="70" y="118" font-size="30" font-weight="700" fill="#22d3ee">6</text>
+    <text x="70" y="136" font-size="10" letter-spacing="1.6" fill="#64748b">REPOSITORIES</text>
+  </g>
+  <g class="cell c1">
+    <text x="280" y="118" font-size="30" font-weight="700" fill="#a78bfa">845</text>
+    <text x="280" y="136" font-size="10" letter-spacing="1.6" fill="#64748b">CONTRIBUTIONS</text>
+  </g>
+  <g class="cell c2">
+    <text x="70" y="180" font-size="30" font-weight="700" fill="#22d3ee">0</text>
+    <text x="70" y="198" font-size="10" letter-spacing="1.6" fill="#64748b">STARS EARNED</text>
+  </g>
+  <g class="cell c3">
+    <text x="280" y="180" font-size="30" font-weight="700" fill="#a78bfa">4</text>
+    <text x="280" y="198" font-size="10" letter-spacing="1.6" fill="#64748b">PULL REQUESTS</text>
+  </g>
+
+  <text x="570" y="88" font-size="10" letter-spacing="1.6" fill="#64748b">TOP LANGUAGES</text>
+  <rect x="570" y="104" width="370" height="12" rx="6" fill="#111a2e"/>
+  <g clip-path="url(#barclip)">
+  <rect class="seg s0" x="570.0" y="104" width="195.9" height="12" fill="#3572A5"/>
+  <rect class="seg s1" x="765.9" y="104" width="120.0" height="12" fill="#3178c6"/>
+  <rect class="seg s2" x="885.9" y="104" width="28.9" height="12" fill="#41b883"/>
+  <rect class="seg s3" x="914.8" y="104" width="18.2" height="12" fill="#f1e05a"/>
+  <rect class="seg s4" x="933.0" y="104" width="5.1" height="12" fill="#663399"/>
+  <rect class="seg s5" x="938.1" y="104" width="3.0" height="12" fill="#012456"/>
+  </g>
+  <g class="cell c0">
+    <circle cx="574" cy="144" r="4" fill="#3572A5"/>
+    <text x="586" y="148" font-size="11" fill="#94a3b8">Python <tspan fill="#475569">52.9%</tspan></text>
+  </g>
+  <g class="cell c1">
+    <circle cx="764" cy="144" r="4" fill="#3178c6"/>
+    <text x="776" y="148" font-size="11" fill="#94a3b8">TypeScript <tspan fill="#475569">32.4%</tspan></text>
+  </g>
+  <g class="cell c2">
+    <circle cx="574" cy="168" r="4" fill="#41b883"/>
+    <text x="586" y="172" font-size="11" fill="#94a3b8">Vue <tspan fill="#475569">7.8%</tspan></text>
+  </g>
+  <g class="cell c3">
+    <circle cx="764" cy="168" r="4" fill="#f1e05a"/>
+    <text x="776" y="172" font-size="11" fill="#94a3b8">JavaScript <tspan fill="#475569">4.9%</tspan></text>
+  </g>
+  <g class="cell c4">
+    <circle cx="574" cy="192" r="4" fill="#663399"/>
+    <text x="586" y="196" font-size="11" fill="#94a3b8">CSS <tspan fill="#475569">1.4%</tspan></text>
+  </g>
+  <g class="cell c5">
+    <circle cx="764" cy="192" r="4" fill="#012456"/>
+    <text x="776" y="196" font-size="11" fill="#94a3b8">PowerShell <tspan fill="#475569">0.5%</tspan></text>
+  </g>
+</g>
+<rect x="0.75" y="0.75" width="998.5" height="238.5" rx="16" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+</svg>
