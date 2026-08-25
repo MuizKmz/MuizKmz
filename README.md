@@ -11,7 +11,9 @@
 I build **real-time systems, intelligent applications and modern digital experiences** —<br>
 taking an idea from **architecture → implementation → interface → deployment**.
 
-<br>
+<a href="https://muizkmz.vercel.app/">
+  <img src="assets/portfolio.svg" alt="View my live portfolio at muizkmz.vercel.app — responsive web and mobile" width="100%">
+</a>
 
 <img src="assets/divider.svg" alt="" width="100%">
 
@@ -113,6 +115,7 @@ Multifunction community bot — games, registration systems and automation utili
 
 Interested in **IoT · AI · Mobile · Full-Stack**? Say hi.
 
+<a href="https://muizkmz.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0a0714?style=for-the-badge&logo=vercel&logoColor=e879f9"></a>
 <a href="https://github.com/MuizKmz"><img src="https://img.shields.io/badge/GitHub-0a0f1e?style=for-the-badge&logo=github&logoColor=22d3ee"></a>
 <a href="mailto:muizkeng@gmail.com"><img src="https://img.shields.io/badge/Email-0a0f1e?style=for-the-badge&logo=gmail&logoColor=a78bfa"></a>
 
