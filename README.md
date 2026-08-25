@@ -1,410 +1,126 @@
-# 👋 Hi, I'm Muiz Kamarozaman
+<div align="center">
 
-### Software Developer · IoT · AI · Full-Stack · Mobile
+<img src="assets/hero.svg" alt="Muiz Kamarozaman — Software Developer · IoT · AI · Full-Stack · Mobile" width="100%">
 
-> I build **real-time systems, intelligent applications, and modern digital experiences** — from IoT platforms and AI tooling to mobile applications.
+<a href="https://github.com/MuizKmz?tab=repositories">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&pause=1200&color=22D3EE&center=true&vCenter=true&width=620&height=46&lines=Real-time+IoT+platforms;AI+agents+%26+automation;React+Native+mobile+apps;Full-stack+web+systems" alt="What I build">
+</a>
 
 <br>
 
-<p align="center">
-  <strong>⚡ BUILD</strong>
-  &nbsp;&nbsp;•&nbsp;&nbsp;
-  <strong>🤖 AUTOMATE</strong>
-  &nbsp;&nbsp;•&nbsp;&nbsp;
-  <strong>🌐 CONNECT</strong>
-  &nbsp;&nbsp;•&nbsp;&nbsp;
-  <strong>🚀 IMPROVE</strong>
-</p>
+I build **real-time systems, intelligent applications and modern digital experiences** —<br>
+taking an idea from **architecture → implementation → interface → deployment**.
 
----
+<br>
 
-## 🧭 About Me
+<img src="assets/divider.svg" alt="" width="100%">
 
-I'm a software developer interested in building systems that combine **technology, automation, real-time data, and great user experiences**.
+</div>
 
-My current work spans:
+## Stack
 
-* 🌐 **IoT & Real-Time Systems**
-* 🤖 **AI & Agentic Development**
-* 📱 **React Native / Mobile Applications**
-* 💻 **Full-Stack Web Applications**
-* 📊 **Data Visualization & Monitoring**
-* ⚙️ **Backend APIs & System Architecture**
-* 🎨 **Modern UI/UX & Design Systems**
+<div align="center">
 
-I enjoy taking an idea from **architecture → implementation → interface → deployment**.
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white&labelColor=0a0f1e">
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white&labelColor=0a0f1e">
+<img src="https://img.shields.io/badge/React_Native-0A7EA4?style=for-the-badge&logo=react&logoColor=white&labelColor=0a0f1e">
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white&labelColor=0a0f1e">
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=0a0f1e">
+<br>
+<img src="https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=mqtt&logoColor=white&labelColor=0a0f1e">
+<img src="https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socketdotio&logoColor=white&labelColor=0a0f1e">
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white&labelColor=0a0f1e">
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=0a0f1e">
+<img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white&labelColor=0a0f1e">
+<br>
+<img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white&labelColor=0a0f1e">
+<img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white&labelColor=0a0f1e">
+<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white&labelColor=0a0f1e">
+<img src="https://img.shields.io/badge/LLM_Agents-8B5CF6?style=for-the-badge&logo=openaigym&logoColor=white&labelColor=0a0f1e">
 
----
+</div>
 
-# 🚀 What I'm Building
+<img src="assets/divider.svg" alt="" width="100%">
+
+## Featured work
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🌐 IoT Platform
-
-A real-time IoT platform for monitoring devices, managing clients, visualizing sensor data and handling alerts.
-
-**Core technologies**
+Real-time device monitoring, MQTT communication, live dashboards and dynamic alert rules.
 
 `Node.js` `TypeScript` `MQTT` `Socket.IO` `MySQL`
 
 </td>
+<td width="50%" valign="top">
 
-<td width="50%">
+### 🤖 AI Platform
+Agentic workflows and AI-assisted development tooling that changes how software gets built.
 
-### 🤖 AI Development Platform
-
-Exploring AI-powered development workflows, agentic systems and automation to improve how software is built.
-
-**Core technologies**
-
-`Python` `AI` `LLM` `Agents` `Automation`
+`Python` `LLM` `Agents` `Automation`
 
 </td>
 </tr>
-
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 📱 Mobile Applications
-
-Building modern mobile experiences with a focus on usability, responsive layouts, real-time information and polished interfaces.
-
-**Core technologies**
+### 📱 Mobile & Portfolio
+Polished React Native experiences with real-time data and responsive, modern interfaces.
 
 `React Native` `Expo` `TypeScript` `Zustand`
 
 </td>
+<td width="50%" valign="top">
 
-<td width="50%">
-
-### 🎨 Digital Experiences
-
-Experimenting with modern interfaces including glassmorphism, dynamic backgrounds, data visualization and interaction design.
-
-**Focus**
-
-`UI/UX` `Design Systems` `Animation` `Visualization`
-
-</td>
-</tr>
-</table>
-
----
-
-# 🛠️ Technology Stack
-
-### Frontend
-
-<p>
-  <code>React</code>
-  <code>React Native</code>
-  <code>TypeScript</code>
-  <code>JavaScript</code>
-  <code>Vite</code>
-  <code>Tailwind CSS</code>
-</p>
-
-### Backend
-
-<p>
-  <code>Node.js</code>
-  <code>Express</code>
-  <code>Python</code>
-  <code>REST APIs</code>
-  <code>Socket.IO</code>
-</p>
-
-### Data & Infrastructure
-
-<p>
-  <code>MySQL</code>
-  <code>MQTT</code>
-  <code>AWS</code>
-  <code>Docker</code>
-</p>
-
-### Mobile
-
-<p>
-  <code>React Native</code>
-  <code>Expo</code>
-  <code>Zustand</code>
-  <code>Socket.IO Client</code>
-</p>
-
-### AI & Automation
-
-<p>
-  <code>Python</code>
-  <code>LLM</code>
-  <code>AI Agents</code>
-  <code>Automation</code>
-</p>
-
----
-
-# ⭐ Featured Projects
-
-<table>
-<tr>
-<td width="50%">
-
-## 🌐 IoT Platform
-
-Real-time IoT monitoring and device management platform.
-
-### Highlights
-
-* 📡 MQTT device communication
-* ⚡ Real-time Socket.IO updates
-* 📊 Device monitoring & visualization
-* 🚨 Dynamic alert rules
-* 👥 User & client management
-* 🔐 Role-based access
-* 🔄 Device status tracking
-* 📱 Mobile companion experience
-
-**Stack**
-
-`Node.js` `Express` `TypeScript`
-`MySQL` `MQTT` `Socket.IO`
-
-→ **Evolve Technologies Sdn Bhd / IOT-platform**
-
-</td>
-
-<td width="50%">
-
-## 🤖 AI Platform
-
-AI-powered development experimentation focused on intelligent tooling and developer workflows.
-
-### Focus
-
-* 🧠 AI-assisted development
-* 🤖 Agentic workflows
-* ⚙️ Automation
-* 🔌 AI integrations
-* 🐍 Python services
-
-**Stack**
-
-`Python` `AI` `LLM` `Agents`
-
-→ **ai-platform-claude**
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-## 📱 Eportfolio
-
-A modern personal portfolio experience designed around responsive layouts and polished UI.
-
-**Stack**
-
-`TypeScript` `React`
-
-→ **Eportfolio**
-
-</td>
-
-<td width="50%">
-
-## 💬 Discord Bot
-
-A multifunction Discord bot featuring games, registration systems, automation and community utilities.
-
-**Stack**
+### 💬 Discord Bot
+Multifunction community bot — games, registration systems and automation utilities.
 
 `JavaScript` `Discord.js`
 
-→ **discord-bot-app**
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-## 🏦 Bank Soalan
-
-A web-based question / learning system.
-
-**Stack**
-
-`Vue`
-
-→ **bank-soalan**
-
-</td>
-
-<td width="50%">
-
-## 🤖 AI Platform Codex
-
-Another AI development environment exploring AI-assisted coding and automation workflows.
-
-**Stack**
-
-`Python`
-
-→ **ai-platform-codex**
-
 </td>
 </tr>
 </table>
 
----
+<div align="center">
+  <a href="https://github.com/MuizKmz?tab=repositories">
+    <img src="https://img.shields.io/badge/Browse_all_repositories-0a0f1e?style=for-the-badge&logo=github&logoColor=22d3ee">
+  </a>
+</div>
 
-# 📊 GitHub Activity
+<img src="assets/divider.svg" alt="" width="100%">
+
+## Activity
 
 <div align="center">
 
-### Building consistently. Learning continuously.
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=MuizKmz&show_icons=true&hide_border=true&hide_title=true&bg_color=0d1117&icon_color=a78bfa&text_color=94a3b8&ring_color=22d3ee">
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MuizKmz&layout=compact&hide_border=true&hide_title=true&langs_count=6&bg_color=0d1117&text_color=94a3b8">
+
+<br><br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/MuizKmz/MuizKmz/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MuizKmz/MuizKmz/output/snake.svg">
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/MuizKmz/MuizKmz/output/snake.svg">
+</picture>
 
 </div>
 
-```text
-                         ┌─────────────────────────────┐
-                         │       GITHUB ACTIVITY        │
-                         │                             │
-                         │        840+ contributions    │
-                         │        Multiple active repos │
-                         │        IoT • AI • Mobile     │
-                         │        Full-Stack development │
-                         │                             │
-                         └─────────────────────────────┘
-```
+<img src="assets/divider.svg" alt="" width="100%">
 
-My contribution graph below reflects the projects, experiments and systems I'm continuously working on.
+<div align="center">
 
----
+### Let's connect
 
-# 🧩 Engineering Interests
+Interested in **IoT · AI · Mobile · Full-Stack**? Say hi.
 
-```text
-┌───────────────────────────────────────────────────────────┐
-│                                                           │
-│  🌐 IoT                    🤖 Artificial Intelligence      │
-│  ├─ MQTT                  ├─ AI Agents                   │
-│  ├─ Device Management     ├─ LLM Applications             │
-│  ├─ Real-time Data        ├─ Developer Automation         │
-│  └─ Monitoring             └─ Intelligent Workflows       │
-│                                                           │
-│  📱 Mobile                 ⚙️ Backend                      │
-│  ├─ React Native          ├─ Node.js                      │
-│  ├─ Expo                  ├─ REST APIs                    │
-│  ├─ UI/UX                 ├─ WebSockets                   │
-│  └─ Design Systems        └─ Database Architecture        │
-│                                                           │
-└───────────────────────────────────────────────────────────┘
-```
+<a href="https://github.com/MuizKmz"><img src="https://img.shields.io/badge/GitHub-0a0f1e?style=for-the-badge&logo=github&logoColor=22d3ee"></a>
+<a href="mailto:muizkeng@gmail.com"><img src="https://img.shields.io/badge/Email-0a0f1e?style=for-the-badge&logo=gmail&logoColor=a78bfa"></a>
 
----
+<br><br>
 
-# 🔬 How I Like To Build
+<sub>Keep building. Keep learning. Keep improving.</sub>
 
-```text
-       IDEA
-        │
-        ▼
-   ┌───────────┐
-   │ DISCOVER   │
-   └─────┬─────┘
-         │
-         ▼
-   ┌───────────┐
-   │ ARCHITECT  │
-   └─────┬─────┘
-         │
-         ▼
-   ┌───────────┐
-   │  BUILD     │
-   └─────┬─────┘
-         │
-         ▼
-   ┌───────────┐
-   │  TEST      │
-   └─────┬─────┘
-         │
-         ▼
-   ┌───────────┐
-   │  IMPROVE   │
-   └─────┬─────┘
-         │
-         ▼
-       🚀 SHIP
-```
-
-I care about more than just making something work.
-
-I like exploring:
-
-**Architecture → Performance → Reliability → UX → Maintainability**
-
----
-
-# 📈 Current Focus
-
-| Area              | Focus                                           |
-| ----------------- | ----------------------------------------------- |
-| 🌐 IoT            | Real-time monitoring, MQTT, device architecture |
-| 🤖 AI             | Agentic workflows and AI-assisted development   |
-| 📱 Mobile         | React Native, Expo and modern UI                |
-| 🎨 UI/UX          | Glassmorphism, interaction and design systems   |
-| ⚙️ Backend        | APIs, WebSockets and scalable architecture      |
-| 📊 Data           | Monitoring, analytics and visualization         |
-| ☁️ Infrastructure | Deployment, servers and cloud systems           |
-
----
-
-# 💡 Philosophy
-
-> **Don't just make it work. Make it understandable, scalable and enjoyable to use.**
-
-Technology changes quickly.
-
-So instead of focusing only on individual frameworks, I try to understand the **systems behind them** — how data moves, how services communicate, how users interact with software, and how everything can be improved.
-
----
-
-# 🌱 Always Learning
-
-Currently exploring deeper into:
-
-* AI agents & autonomous workflows
-* Advanced system architecture
-* Real-time distributed systems
-* IoT scalability
-* Cloud infrastructure
-* Mobile performance
-* Modern UI engineering
-* Developer productivity tooling
-
----
-
-# 📫 Let's Connect
-
-If you're interested in:
-
-**IoT · AI · Software Development · Mobile · Full-Stack · Technology**
-
-feel free to connect or explore my repositories.
-
-<p align="center">
-  <strong>Thanks for stopping by 👋</strong>
-  <br>
-  <sub>Keep building. Keep learning. Keep improving.</sub>
-</p>
-
----
-
-<p align="center">
-  <sub>© 2026 Muiz Kamarozaman</sub>
-</p>
+</div>
