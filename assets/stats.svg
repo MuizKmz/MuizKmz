@@ -38,7 +38,7 @@
     <text x="70" y="136" font-size="10" letter-spacing="1.6" fill="#64748b">REPOSITORIES</text>
   </g>
   <g class="cell c1">
-    <text x="280" y="118" font-size="30" font-weight="700" fill="#a78bfa">864</text>
+    <text x="280" y="118" font-size="30" font-weight="700" fill="#a78bfa">865</text>
     <text x="280" y="136" font-size="10" letter-spacing="1.6" fill="#64748b">CONTRIBUTIONS</text>
   </g>
   <g class="cell c2">
@@ -53,36 +53,36 @@
   <text x="570" y="88" font-size="10" letter-spacing="1.6" fill="#64748b">TOP LANGUAGES</text>
   <rect x="570" y="104" width="370" height="12" rx="6" fill="#111a2e"/>
   <g clip-path="url(#barclip)">
-  <rect class="seg s0" x="570.0" y="104" width="199.4" height="12" fill="#3572A5"/>
-  <rect class="seg s1" x="769.4" y="104" width="117.9" height="12" fill="#3178c6"/>
-  <rect class="seg s2" x="887.3" y="104" width="27.6" height="12" fill="#41b883"/>
-  <rect class="seg s3" x="914.9" y="104" width="17.4" height="12" fill="#f1e05a"/>
-  <rect class="seg s4" x="932.3" y="104" width="4.9" height="12" fill="#663399"/>
-  <rect class="seg s5" x="937.1" y="104" width="3.0" height="12" fill="#012456"/>
+  <rect class="seg s0" x="570.0" y="104" width="191.4" height="12" fill="#3572A5"/>
+  <rect class="seg s1" x="761.4" y="104" width="127.2" height="12" fill="#3178c6"/>
+  <rect class="seg s2" x="888.6" y="104" width="26.5" height="12" fill="#41b883"/>
+  <rect class="seg s3" x="915.1" y="104" width="16.7" height="12" fill="#f1e05a"/>
+  <rect class="seg s4" x="931.7" y="104" width="5.5" height="12" fill="#663399"/>
+  <rect class="seg s5" x="937.3" y="104" width="3.0" height="12" fill="#012456"/>
   </g>
   <g class="cell c0">
     <circle cx="574" cy="144" r="4" fill="#3572A5"/>
-    <text x="586" y="148" font-size="11" fill="#94a3b8">Python <tspan fill="#475569">53.9%</tspan></text>
+    <text x="586" y="148" font-size="11" fill="#94a3b8">Python <tspan fill="#475569">51.7%</tspan></text>
   </g>
   <g class="cell c1">
     <circle cx="764" cy="144" r="4" fill="#3178c6"/>
-    <text x="776" y="148" font-size="11" fill="#94a3b8">TypeScript <tspan fill="#475569">31.9%</tspan></text>
+    <text x="776" y="148" font-size="11" fill="#94a3b8">TypeScript <tspan fill="#475569">34.4%</tspan></text>
   </g>
   <g class="cell c2">
     <circle cx="574" cy="168" r="4" fill="#41b883"/>
-    <text x="586" y="172" font-size="11" fill="#94a3b8">Vue <tspan fill="#475569">7.4%</tspan></text>
+    <text x="586" y="172" font-size="11" fill="#94a3b8">Vue <tspan fill="#475569">7.2%</tspan></text>
   </g>
   <g class="cell c3">
     <circle cx="764" cy="168" r="4" fill="#f1e05a"/>
-    <text x="776" y="172" font-size="11" fill="#94a3b8">JavaScript <tspan fill="#475569">4.7%</tspan></text>
+    <text x="776" y="172" font-size="11" fill="#94a3b8">JavaScript <tspan fill="#475569">4.5%</tspan></text>
   </g>
   <g class="cell c4">
     <circle cx="574" cy="192" r="4" fill="#663399"/>
-    <text x="586" y="196" font-size="11" fill="#94a3b8">CSS <tspan fill="#475569">1.3%</tspan></text>
+    <text x="586" y="196" font-size="11" fill="#94a3b8">CSS <tspan fill="#475569">1.5%</tspan></text>
   </g>
   <g class="cell c5">
     <circle cx="764" cy="192" r="4" fill="#012456"/>
-    <text x="776" y="196" font-size="11" fill="#94a3b8">PowerShell <tspan fill="#475569">0.8%</tspan></text>
+    <text x="776" y="196" font-size="11" fill="#94a3b8">PowerShell <tspan fill="#475569">0.7%</tspan></text>
   </g>
 </g>
 <rect x="0.75" y="0.75" width="998.5" height="238.5" rx="16" fill="none" stroke="#1e293b" stroke-width="1.5"/>
