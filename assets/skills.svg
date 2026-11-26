@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 438" width="1000" height="438" role="img" aria-label="Skill database — frontend, mobile, backend, AI &amp; agents, real-time IoT, DevOps &amp; data">
+<title>Skill database — frontend, mobile, backend, AI &amp; agents, real-time IoT, DevOps &amp; data</title>
+<defs>
+<style>
+@font-face{font-family:'HudDisplay7';src:url(data:font/woff2;base64,d09GMgABAAAAAAUEABAAAAAACzAAAASqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGjgbggAcKgZgP1NUQVQqAHQRCAqMSIh6ATYCJANcCzAABCAFPgcgDAcbHAjIBh4Ir/w3M8khrpVjpa2BvdTg9oO+9jt/7Dfrf4g10Ug0C4VGhNbEpePJ7DpHpESOROJoYjO7vrWF5iEtRELKW3Rz6sFSFfCT59gdEYAFAAgE2RAAhrPpjBU93O0NilMOWb9h8/Y4w/uMH4mDBrCaKAwbMHYkCcBGQ9rF/p2RjAa41Kcp7enJYMYymbksYBUb2MYejnEFiYZAAhoGEhuPRLKSDRtBtvBHJFnDBwjvxczwt53jQ+R8hx1+X+siyYLhCX/EEonnwUmI8OtIKBXrhMDajxEI1Nn2uZ5shV+t/w+FCH/EDl/ihX8jSlfm1DV9kvG5ez67NTlTXkEHuUh2BprVs4ielBPd2aoK9P+3vJQdFKaL+j20oQzzu50t68tYoTASsZi7IDsCyI+cNGjw+LfRky00eQVIgHq7lHdCo3f9Eg+FRmF8StKIJrSmPR3pEoaggTq0ZrT9m2Fm+Ev4dXgjvB5eC6+GV8JLCD4yAhGGuJBysaMUUBDE1yAL8XFp+8UkCoFE3EEyFeLNQWYxs3teTsuzjFTNjbOM7J7j6Y4XSUww9FTb1Ofcfm7ai5/eRDOEhdHNFnPWGdaiNWDqru4OzN6Q/eBJmH3jieF0shevF9Zps9d246vMRc9uCZWv3sVZdAA5+yCasthluL3vAasQqdN342Bj4UI9ModxWAi93obuEoawc+VM3dRgpTS7mfQfgNHVkKLP5dwwYJCpGXr/gUbfEJ2OD9WSjtwfvR7FxN6Mb+5uV7MDjtnQgl+YaNEaxGGjQWHJ83xb6JZwsTRbDDWHDDMH20INNLt0M/vLTkLYmCnSx5MO3dUf3szT1EeYdKDjgRFV7c/VN+eiDdlfJ9LA7/mlf9HP7Ok3CH67/1tGdML9h/pE/Zg+UH9ItViy/2VPf6lduWlcnTyb/Z6Zfv3lGcdsruV263Lg1tJW6R31udoaBsYHcjvAfinpxnpBklcky2yvqJcUEInV78J+KUXsTMbxAxyD47q3zvKB9UHWHYfmHdqRNWA8JRKZBpiqEpRr1wjWibf87iDZzncaqbFojKqxoMTBzOIrfLuOU8dfiY84WIKqLzKaNw+oElupVVKVVsUCz6ufpZ4rZC/aTlCWLjkuN1vxXELHmZFij+kgQZXnI9h1y+/1h3+dl+a0Y/oE/YJRV/+iAUx8Rx69/GGJZz72Gy3EKmeUZfXjty4UifqZcNKazrUGpQB/9jQiNPODWFCiGXfY8XxTndJ1S2+s/yFa4zS7ueW3Mj+X2d78lk3kS6Ibo1z33+iRdCvnfxc7pwxJ6vl6iXFFjo7r1SJaWh+oD9YH6hO3PB8R3T2pYXRRy9Kvih+f28OsmDH+8pdxffKt0QcCgAAkdXPu+qtZL7d6ZoJS3wA8UnZZgA8LtVuNFv6l3pcvEMQhARCw4lq/txCQUxB8LppL/EF2VZ+Iqk01VYkqqi4R+T8gr69RNanCW6SqAlRVJnB2UEXVlq5OJZWLKqrqWYlQUb4iu/qeYspHkzrVRDlQh6iIAHIRQQEg+OxSpKIQWiKSBKBCAiwSzpRGAlCXUQynP50YwBAGMZjxKAAIt1CObfUFEQYntKUA) format('woff2');}
+@font-face{font-family:'HudMono';src:url(data:font/woff2;base64,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) format('woff2');}
+@font-face{font-family:'HudMonoB';src:url(data:font/woff2;base64,d09GMgABAAAAAAN0ABAAAAAABlgAAAMaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbIBwqBmA/U1RBVEwAbBEICoUAg28BNgIkAxwLHAAEIAVsByAMBxuXBFFUL54JvjjIhgx805pQjEzKJKbd2ostsuGub+T596h8Fg//7fe/fc7MN0HMm0qyfhO/gTfrNA2FRIgskmjIRNdGe4v5/8e990PvfWigEYW0hAQxLYN5Z81au8sr/wvLWttNse/ATbm+FoWBJB7ivZh9oCywgBMM7NMVCOztCQ4HtoHgzF3tsZWkJtM5KL52IDAKSCEMCYFhCy0Wh129g4GuQgMIDFttreSqsc8nFOeCOA0Yr9kRH+sjr2cH4Gg7HCfAMOwBkiGOHf7mkYMA7lhqqvT+31J6sREBuTqfsVSfEAYlZkqslFfS0osJOHMxIZswIVRzJUR/PiY7gPyLImRMggCJgpmKwExVB0w3qUhLbXGQCw/egsU1IOIAZ9JL0Du031557lm71WwI8p1CNCbAGJiPCdzDb0AFpCKFbmxwaMYLg8FETCaLqkUnk3EcjkGhKDgKh07dS47fSmMK7rqD+ttbRDi4C7RQQN8QGq6RIuJwcAdEyiLBlAVMdS0OTEIEFqDEsJQj4igcHoEiY87ayCxI+P29Iq6/2+xvm4ZmitDw8NB9F4IarlHnKdRvmYTcwU2K59bUkCpcHkJggdLq0+TaU73a8rZ/KVvRYa2dCY6vggLbdwN8vGRWJYcZaLl5qhmQ7QPV9f0s7Cxi0g098tMyzF6NjD7NMlKSDZt1dZsMk8HLk2e2mVWKK8/FKjXb3DOqMNr0z4Rn/GcaDeFWcqzWxbPF761yILKh/6Fm0mOAtxq1sHbV9qmYpaquPvsQB0hTk2paDDoMrxwDy2h2jY69obnplrbKXEWQaIhIdEGArVlUqoFrZlU2RE0r38ggRlO1OTNULFQkKj/I1goZm2Xkz8lnxb3iZ6msLoh84qodw65rBe8LAARya/XLq1Ca4uz+Ry/lO7x6MXcbXr28/KXUSnNHsRX6JQi+wcuOwi0pEVxjZAeRlBznpfMh3tJY2Gy33QiM2aCAIGN9DiKJOiQNUhjBqMFiPwYmkJm/dNKwpQ7Kky1ZmBQZ0qQr5qFYgmwZkgTKkyNBLhLQYvhS9n6079ZbAAA=) format('woff2');}
+
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#05020c"/><stop offset=".55" stop-color="#0d0520"/><stop offset="1" stop-color="#05020c"/></linearGradient>
+<radialGradient id="gl2" cx="0.5" cy="0.3" r=".6">
+  <stop offset="0" stop-color="#8527e3" stop-opacity=".30"/><stop offset=".55" stop-color="#6366f1" stop-opacity=".06"/><stop offset="1" stop-color="#8527e3" stop-opacity="0"/></radialGradient>
+<pattern id="sl3" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#ffffff" opacity=".035"/></pattern>
+<clipPath id="cp4"><rect x="0" y="0" width="1000" height="438" rx="14"/></clipPath>
+<pattern id="gp5" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#a855f7" stroke-opacity=".07" stroke-width="1"/></pattern>
+</defs>
+<g clip-path="url(#cp4)">
+<rect x="0" y="0" width="1000" height="438" fill="url(#bg1)"/>
+<rect x="0" y="0" width="1000" height="438" fill="url(#gl2)"/>
+<rect x="0" y="0" width="1000" height="438" fill="url(#gp5)"/>
+<rect x="0" y="0" width="1000" height="438" fill="url(#sl3)"/>
+</g>
+<rect x="0.75" y="0.75" width="998.5" height="436.5" rx="14" fill="none" stroke="#a855f7" stroke-opacity=".28" stroke-width="1.5"/>
+<text x="26.0" y="42.0" font-family="HudMonoB, ui-monospace, Menlo, Consolas, monospace" font-size="12" letter-spacing="3" fill="#c084fc" text-anchor="start" >// SKILL_DATABASE</text>
+<text x="974.0" y="42.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="2" fill="#8b7aa8" text-anchor="end" >06 TREES  ·  40 NODES</text>
+<rect x="20" y="64" width="304" height="166" fill="#13062a" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".22"/>
+<rect x="20" y="64" width="3" height="166" fill="#a855f7" opacity=".8"/>
+<path d="M20 74V64H30 M314 64H324V74 M324 220V230H314 M30 230H20V220" fill="none" stroke="#a855f7" stroke-opacity="0.75" stroke-width="1.5"/>
+<text x="38.0" y="94.0" font-family="HudDisplay7, 'Arial Black', sans-serif" font-size="12" letter-spacing="2.4" fill="#f5f3ff" text-anchor="start" >FRONTEND SYSTEMS</text>
+<text x="308.0" y="94.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="1" fill="#4c3a6e" text-anchor="end" >SKL-01</text>
+<rect x="38" y="106" width="268" height="1" fill="#24123f"/>
+<rect x="38" y="106" width="36" height="1" fill="#a855f7"/>
+<rect x="38.0" y="118.0" width="55.0" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="49.0" y="134.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >React</text>
+<rect x="101.0" y="118.0" width="68.2" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="112.0" y="134.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >Next.js</text>
+<rect x="177.2" y="118.0" width="55.0" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="188.2" y="134.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >Vue 3</text>
+<rect x="38.0" y="150.0" width="88.0" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="49.0" y="166.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >TypeScript</text>
+<rect x="134.0" y="150.0" width="74.8" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="145.0" y="166.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >Tailwind</text>
+<rect x="216.8" y="150.0" width="48.4" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="227.8" y="166.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >Vite</text>
+<rect x="342" y="64" width="304" height="166" fill="#13062a" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".22"/>
+<rect x="342" y="64" width="3" height="166" fill="#a855f7" opacity=".8"/>
+<path d="M342 74V64H352 M636 64H646V74 M646 220V230H636 M352 230H342V220" fill="none" stroke="#a855f7" stroke-opacity="0.75" stroke-width="1.5"/>
+<text x="360.0" y="94.0" font-family="HudDisplay7, 'Arial Black', sans-serif" font-size="12" letter-spacing="2.4" fill="#f5f3ff" text-anchor="start" >MOBILE</text>
+<text x="630.0" y="94.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="1" fill="#4c3a6e" text-anchor="end" >SKL-02</text>
+<rect x="360" y="106" width="268" height="1" fill="#24123f"/>
+<rect x="360" y="106" width="36" height="1" fill="#a855f7"/>
+<rect x="360.0" y="118.0" width="101.2" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="371.0" y="134.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >React Native</text>
+<rect x="469.2" y="118.0" width="48.4" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="480.2" y="134.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >Expo</text>
+<rect x="525.6" y="118.0" width="68.2" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="536.6" y="134.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >Flutter</text>
+<rect x="360.0" y="150.0" width="61.6" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="371.0" y="166.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >Kotlin</text>
+<rect x="429.6" y="150.0" width="48.4" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="440.6" y="166.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >Java</text>
+<rect x="664" y="64" width="304" height="166" fill="#13062a" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".22"/>
+<rect x="664" y="64" width="3" height="166" fill="#a855f7" opacity=".8"/>
+<path d="M664 74V64H674 M958 64H968V74 M968 220V230H958 M674 230H664V220" fill="none" stroke="#a855f7" stroke-opacity="0.75" stroke-width="1.5"/>
+<text x="682.0" y="94.0" font-family="HudDisplay7, 'Arial Black', sans-serif" font-size="12" letter-spacing="2.4" fill="#f5f3ff" text-anchor="start" >BACKEND LOGIC</text>
+<text x="952.0" y="94.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="1" fill="#4c3a6e" text-anchor="end" >SKL-03</text>
+<rect x="682" y="106" width="268" height="1" fill="#24123f"/>
+<rect x="682" y="106" width="36" height="1" fill="#a855f7"/>
+<rect x="682.0" y="118.0" width="68.2" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="693.0" y="134.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >Node.js</text>
+<rect x="758.2" y="118.0" width="61.6" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="769.2" y="134.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >NestJS</text>
+<rect x="827.8" y="118.0" width="68.2" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="838.8" y="134.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >Express</text>
+<rect x="682.0" y="150.0" width="94.6" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="693.0" y="166.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >Spring Boot</text>
+<rect x="784.6" y="150.0" width="68.2" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="795.6" y="166.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >FastAPI</text>
+<rect x="860.8" y="150.0" width="68.2" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="871.8" y="166.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >Laravel</text>
+<rect x="682.0" y="182.0" width="61.6" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="693.0" y="198.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >Prisma</text>
+<rect x="20" y="248" width="304" height="166" fill="#13062a" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".22"/>
+<rect x="20" y="248" width="3" height="166" fill="#a855f7" opacity=".8"/>
+<path d="M20 258V248H30 M314 248H324V258 M324 404V414H314 M30 414H20V404" fill="none" stroke="#a855f7" stroke-opacity="0.75" stroke-width="1.5"/>
+<text x="38.0" y="278.0" font-family="HudDisplay7, 'Arial Black', sans-serif" font-size="12" letter-spacing="2.4" fill="#f5f3ff" text-anchor="start" >AI &amp; AGENTS</text>
+<text x="308.0" y="278.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="1" fill="#4c3a6e" text-anchor="end" >SKL-04</text>
+<rect x="38" y="290" width="268" height="1" fill="#24123f"/>
+<rect x="38" y="290" width="36" height="1" fill="#a855f7"/>
+<rect x="38.0" y="302.0" width="48.4" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="49.0" y="318.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >LLMs</text>
+<rect x="94.4" y="302.0" width="41.8" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="105.4" y="318.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >RAG</text>
+<rect x="144.2" y="302.0" width="81.4" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="155.2" y="318.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >LangGraph</text>
+<rect x="38.0" y="334.0" width="81.4" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="49.0" y="350.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >LangChain</text>
+<rect x="127.4" y="334.0" width="74.8" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="138.4" y="350.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >pgvector</text>
+<rect x="210.2" y="334.0" width="74.8" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="221.2" y="350.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >Pinecone</text>
+<rect x="38.0" y="366.0" width="41.8" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="49.0" y="382.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >MCP</text>
+<rect x="87.8" y="366.0" width="41.8" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="98.8" y="382.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >n8n</text>
+<rect x="342" y="248" width="304" height="166" fill="#13062a" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".22"/>
+<rect x="342" y="248" width="3" height="166" fill="#a855f7" opacity=".8"/>
+<path d="M342 258V248H352 M636 248H646V258 M646 404V414H636 M352 414H342V404" fill="none" stroke="#a855f7" stroke-opacity="0.75" stroke-width="1.5"/>
+<text x="360.0" y="278.0" font-family="HudDisplay7, 'Arial Black', sans-serif" font-size="12" letter-spacing="2.4" fill="#f5f3ff" text-anchor="start" >REAL-TIME IOT</text>
+<text x="630.0" y="278.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="1" fill="#4c3a6e" text-anchor="end" >SKL-05</text>
+<rect x="360" y="290" width="268" height="1" fill="#24123f"/>
+<rect x="360" y="290" width="36" height="1" fill="#a855f7"/>
+<rect x="360.0" y="302.0" width="48.4" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="371.0" y="318.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >MQTT</text>
+<rect x="416.4" y="302.0" width="81.4" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="427.4" y="318.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >Socket.IO</text>
+<rect x="505.8" y="302.0" width="55.0" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="516.8" y="318.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >ESP32</text>
+<rect x="360.0" y="334.0" width="88.0" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="371.0" y="350.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >RFID / EPC</text>
+<rect x="456.0" y="334.0" width="81.4" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="467.0" y="350.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >Telemetry</text>
+<rect x="545.4" y="334.0" width="41.8" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="556.4" y="350.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >OEE</text>
+<rect x="664" y="248" width="304" height="166" fill="#13062a" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".22"/>
+<rect x="664" y="248" width="3" height="166" fill="#a855f7" opacity=".8"/>
+<path d="M664 258V248H674 M958 248H968V258 M968 404V414H958 M674 414H664V404" fill="none" stroke="#a855f7" stroke-opacity="0.75" stroke-width="1.5"/>
+<text x="682.0" y="278.0" font-family="HudDisplay7, 'Arial Black', sans-serif" font-size="12" letter-spacing="2.4" fill="#f5f3ff" text-anchor="start" >DEVOPS &amp; DATA</text>
+<text x="952.0" y="278.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="1" fill="#4c3a6e" text-anchor="end" >SKL-06</text>
+<rect x="682" y="290" width="268" height="1" fill="#24123f"/>
+<rect x="682" y="290" width="36" height="1" fill="#a855f7"/>
+<rect x="682.0" y="302.0" width="61.6" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="693.0" y="318.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >Docker</text>
+<rect x="751.6" y="302.0" width="41.8" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="762.6" y="318.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >AWS</text>
+<rect x="801.4" y="302.0" width="101.2" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="812.4" y="318.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >Huawei Cloud</text>
+<rect x="682.0" y="334.0" width="88.0" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="693.0" y="350.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >GH Actions</text>
+<rect x="778.0" y="334.0" width="68.2" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="789.0" y="350.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >Jenkins</text>
+<rect x="854.2" y="334.0" width="55.0" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="865.2" y="350.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >MySQL</text>
+<rect x="682.0" y="366.0" width="88.0" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="693.0" y="382.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >PostgreSQL</text>
+<rect x="778.0" y="366.0" width="55.0" height="24" rx="3" fill="#2a0e4d" fill-opacity=".55" stroke="#a855f7" stroke-opacity=".45"/>
+<text x="789.0" y="382.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="0" fill="#e9d5ff" text-anchor="start" >Redis</text>
+<rect x="460" y="225" width="502" height="2" fill="#ff2bd6" opacity="0"><animate attributeName="opacity" values="0;.7;0;.45;0" keyTimes="0;.02;.035;.05;1" dur="6s" begin="2.79s" repeatCount="indefinite"/></rect>
+<rect x="327" y="149" width="480" height="1" fill="#22e5ff" opacity="0"><animate attributeName="opacity" values="0;.7;0;.45;0" keyTimes="0;.02;.035;.05;1" dur="6s" begin="4.76s" repeatCount="indefinite"/></rect>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 56" width="240" height="56" role="img" aria-label="Linkedin — in/muizzuddin">
+<title>Linkedin — in/muizzuddin</title>
+<defs>
+<style>
+@font-face{font-family:'HudDisplay7';src:url(data:font/woff2;base64,d09GMgABAAAAAAJcABAAAAAABNQAAAIBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhwbVhwqBmA/U1RBVCoAVBEICoIogWIBNgIkAyALEgAEIAU+ByAMBxtiAyiOxDiG8h9tCB0Pz6/1eu6b2WR2OQDo8lUQwRUA7bcFIMubkqtufch18p+TZN3pT8eIgpZLW3SNMNDQAitra2v5JaEoo4AC0PSGaafIs6Ycbs9NItAAhKQiBKCX10zUIy1dvnar1tlDV89ryaEkEGeOXT6vQCDkkkIohIYcob8QMiHXV6BmsqnbNFQCQJ7uS1+rkJ5KO7GGcmK/ntirVAh8RP6CXmOtz26VTbJbbiEgLU1djJWEUAgMFBgp3Thx8mpAEhB5+hokZBgoExgotxANhSQ31jKrrLW+hLGWWmWN2qj81zfll+UX5ecCAIQoS21QgA76Yg12AnJAEr5Eo9PI231q9Ur76V9+kB74/ufa4ebTr0f24Gu1xlOvSA+8OihraWpoq1fqeVRTfU/d0WNqu2up8T2fwmTtdD67u3Tynf2Tv5y8/87kjx95r3K98i4c4fGDj5vdff3R/r1vPvZmb/9HTe8+3DWr++ikN+70wuTmotaiyS/e6Y1JZt18ZO3aR83svvhFs/Vo98UvW20gkCz++N2l9w60594psuw/+DFrzoB/xmx52XSyWrop9JFAcCEvnkCyBGBCEbcNbM1O/5vtb9OzUWZldYwWmhk9CBRG7iayl5kuE3lVUiC0oKG4VK7AYhecddQOx5xywklXZUC5HhZ/HuWj7+fPAgAAAA==) format('woff2');}
+@font-face{font-family:'HudMono';src:url(data:font/woff2;base64,d09GMgABAAAAAAM4ABAAAAAABhQAAALfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhwbIBwqBmA/U1RBVF4AZBEICoQYgzIBNgIkAywLGAAEIAVyByAMBxuABCAuBmP3QjNRIiZaK7JWnIsr8q02gq+1z34z+2nnQoAq6ioKmByxA7RRjkDoREVj+bir25/Xy1dKuRygX+ZcY+oIc6KHBZw7N/9hAdIUWr7/yyQLz//l9MYW2kPoDA+njabe88bmnn/gKOAEov184XEJFUYJR5m72oeHZO2cY4o9An2AVLShpSMuozbZVLGewZOBrQoagESYa760mfMloqUOfIWw3VXaZ/YKWqQn5vsAbITb4wikBw6Q6PFg+BMb+gF8gelu5YHBd/JAJCIgzU2/mK4lhK6E0TJmS9eNphYznL9C1JgNE9omWighRRWvQBwBiG/IdDd9oOAAh19onJAT5AG/W9kGDDdcxnTLnFKpTquuBonVvrf558eiWdNGDRbcF6JhGKZ4bSx6eI1P6Hus9YZoj0CMG2o/f6y7vWXf8b7PiIdf5emHhUVhVqo66kUP3vc8/Yp4+Fk/eefBjxIl1zEkFaVVlPEP37ZUK0ssDk11fnhUPzlIpZGC+IJeofckXy+X9OCj5l+49vcSZx1jiFND7L7tcKO67zYe3pWnNx58KL0dutqy1XJtrZQmZmOenmY9K+gXnXf3JIlZUfxcEh2bwqI6N49MxafwWkC+46l3b4fl97cSoMwVUty/kq3il6ZRsc34mOSo+MxcPr4mXQ9/CQz4C99grUf8BQYe293g0FxU6RFJ5jPoUkKvakKmgv/sXJyKl0F8r7yxgShDZRiJlsO2aVg/l2huAHQgozNRMoryOukS4Fz2zjgoD88Aix6FiYOCJWFhkuAgMZjPldFWDzMddoO0KNsJpLVV/ufzctRl3X9bi/wXfr6ag/O/rb+5nMXQXgLBp26lfQJqcHCF4P2S9gEyUD5gClyCI5j7SYBfECjmS8ZKx2WUt6Wfhah61VCmlqDPULBagofhE3+k4Wpz7aBn1KoGoYmSXiUjkxZsLQg1KmlJ1KtFqGMBNElH8MU30ezqOQA=) format('woff2');}
+
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<linearGradient id="bb1" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#8527e3" stop-opacity=".38"/><stop offset="1" stop-color="#581c87" stop-opacity=".55"/></linearGradient>
+</defs>
+<rect x="1" y="1" width="238" height="54" fill="#05020c"/>
+<rect x="1" y="1" width="238" height="54" fill="url(#bb1)" stroke="#a855f7" stroke-opacity=".65"/>
+<path d="M1 9V1H9 M231 1H239V9 M239 47V55H231 M9 55H1V47" fill="none" stroke="#e9d5ff" stroke-opacity="0.9" stroke-width="1.5"/>
+<text x="18.0" y="26.0" font-family="HudDisplay7, 'Arial Black', sans-serif" font-size="13" letter-spacing="2.4" fill="#f5f3ff" text-anchor="start" >LINKEDIN</text>
+<text x="18.0" y="43.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="0.5" fill="#c4b5fd" text-anchor="start" >in/muizzuddin</text>
+<path d="M210 20 L220 28 L210 36" fill="none" stroke="#c084fc" stroke-width="2.2"><animate attributeName="opacity" values=".3;1;.3" dur="1.6s" repeatCount="indefinite"/></path>
+<rect x="1" y="1" width="30" height="54" fill="#e9d5ff" opacity=".08"><animate attributeName="x" values="-30;240" dur="3.6s" begin="1.6s" repeatCount="indefinite"/></rect>
+</svg>

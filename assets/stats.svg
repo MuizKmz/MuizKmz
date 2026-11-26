@@ -1,89 +1,130 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="1000" height="240" role="img" aria-label="GitHub statistics for MuizKmz">
-<title>GitHub statistics for MuizKmz</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="Status window for MuizKmz: level 3 SOFTWARE ENGINEER, 894 contributions in the last year">
+<title>Status window for MuizKmz: level 3 SOFTWARE ENGINEER, 894 contributions in the last year</title>
 <defs>
-  <linearGradient id="sbg" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#080d1a"/><stop offset="0.5" stop-color="#0c1226"/><stop offset="1" stop-color="#080a14"/>
-  </linearGradient>
-  <linearGradient id="srule" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="300" y2="0">
-    <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
-    <stop offset="0.5" stop-color="#e8fbff" stop-opacity="0.9"/>
-    <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
-    <animateTransform attributeName="gradientTransform" type="translate" values="-320 0; 1020 0" dur="4.5s" repeatCount="indefinite"/>
-  </linearGradient>
-  <clipPath id="barclip"><rect x="570" y="104" width="370" height="12" rx="6"/></clipPath>
-  <style>
-    .cell { animation: rise .8s ease-out backwards; }
-    .seg  { animation: grow .9s cubic-bezier(.2,.7,.3,1) backwards; transform-box: fill-box; transform-origin: left center; }
-    .c0{animation-delay:.05s}.c1{animation-delay:.15s}.c2{animation-delay:.25s}
-    .c3{animation-delay:.35s}.c4{animation-delay:.45s}.c5{animation-delay:.55s}
-    .s0{animation-delay:.10s}.s1{animation-delay:.20s}.s2{animation-delay:.30s}
-    .s3{animation-delay:.40s}.s4{animation-delay:.50s}.s5{animation-delay:.60s}
-    @keyframes rise { from { opacity:0; transform:translateY(8px) } to { opacity:1; transform:none } }
-    @keyframes grow { from { transform:scaleX(0) } to { transform:scaleX(1) } }
-    @media (prefers-reduced-motion: reduce) { .cell,.seg { animation:none } }
-  </style>
+<style>
+@font-face{font-family:'HudDisplay';src:url(data:font/woff2;base64,d09GMgABAAAAAAIsAA8AAAAABBwAAAHUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGyAcKgZgP1NUQVQqAEQRCAqBbIIDATYCJAMQCwoABCAFTgcgDAcbIQMAjsN0a3En4kEdZTeUnof/3x/fPve+Dw2dBCTYlW4skXEamSbB7c+0WetBtbbrBku73WAwGh0EQzYWuyCGTx52wVhdd3qwE3wBQDvdWpQ1z9JAbnyxPLtoEjUPlCtK1Rtmj2u1YHn4BWp10kVMnT53gWoFlCXAQ3TXU7I12bH2wC7tnGtQpCP5hArSubQEc2pLrDI4VhAMmc/xrR7oZkhuLBvIjRoRkKamV+gmCaFaoJVAJ+nw5i0HApKAqMwnQEJGK1mglcJAVKuW0M1AQ8oSjyk/l6/LlwJAiLLUFBSgGgVWYh+gAGRB66qq0XXnPnyIfPTjx7qG8+/fS0fevautXxwNR49GXhOb68G2FnWOHl1JQNVnjKo2jgyOXGvVXm7Nn/acNGhVWQs9fZumuMSJvvKj7TEB9VdOG183AR72nCShqY3BVZzE7evXcQSHMPL6bEF37yYTH13PXn+XDpcSergCBJLJ6c/L5qv7sf+qc/4BT3LDIPjUdf5pGOl/eoVKCQQvlckOmMzUZIci/mqVJxuVRxsWkxEojJZBAAAg6y2LokbShD4I6jXxV6rVwTwbbXbQDmvts9hGW222xQGT58/W2y4D5a0YDP39KE9+xUUAAA==) format('woff2');}
+@font-face{font-family:'HudDisplay7';src:url(data:font/woff2;base64,d09GMgABAAAAAAN4AA8AAAAABwAAAAMiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAG2AcKgZgP1NUQVQqAGwRCAqGSIUCATYCJAMwCxoABCAFPgcgDAcbGAVRlA7GcpCfB7Z7lBla3cGNzBItOX72hjKs4iHYD/fu7m9D3Zq4NpqXRIhEDYlEtiQaR/9HdtjMIdoA3AvEDhXEyvBDKlVUYP43YqXJCfPE5fTHpr+3/wpwC6WZrT20DZi+YECfbx2bAyqxMMw2G45gEoVD7Nzpq95dKNDLFIvklm179ul37fS9G/pp4NswdPX8nRt6YKxG2kNMe0fTMGOElES1X6drXgfNaWbgI6bW6iYf5Xsd5IsMu6NF4oRFcYyoB/3fIAt6aYID1d1Kcb2lbgTklvyICVIIPQSGCIyRDy9euheQAqLJ9yBRGKIEhmgcwiADlDTBPIsssdIWexxoARRcgK34hvafT1556ZmL9rDdEIZKiLYlg+rjU0dgINGbmAZoACmEEkIqKegzoLPHUyVRUTFLSU5PTk5fmie8TNvj68BUX3skkSTVNoRszaCEZGs/MNUDhCecDEhhFsnMJhmk9ckbZGtuPiVSHOBVQjIcJ5OA6eME+RCJaMKRnakhxIIZkECyDdoZ4Xj1AGmxB0piOmEISEAaEiStT24wW1Mao5Oo9P3raiHzjXs+HGvzVg9EQ/oiEW0Z01e09IcZHWlG90Uk4PrM3/c4ekrjvtuv3+IL+U2vjcC0XdLA5Xl9YGAD3ILpp6M+Vr5WI9EucJO+M/Ix2hPi3tAD+iauPSPA+s5y9i1QxutzvfEQGgPOveAbKDgHbLxjep6BCygKsa/odsI25MG1uE2dIzh4QD8HNWsU/CUNVj3DtQ4ewsHtsqfKhlLrUw/KnOH3Mzfp61gT8vvV1fsKnVRhvYm6uCUjP29hgsa+BuJcLRS29XpT5OX0MQmfznUu6eTS4Zpeb2uK2wE2rNwWXscZE2JfCQf0VWznhUpzcDShQE8WHKFuwfA6BAAGfAuevP0fL+P+ndCj6jd8KKmF8HX83j5Bfc7nQqcEwXtX/SdknkcYh/eJ/4bUJquqt5X1z+TaZGU8FbXOyvykE/mNWmOpb5bFIgT62KxAkFVllhJNT6kHT1JBHz3+VKMHNrnpmnMOOu+yiy65p4B23CLS/zo8ftUM) format('woff2');}
+@font-face{font-family:'HudMono';src:url(data:font/woff2;base64,d09GMgABAAAAAAgIABAAAAAAD5wAAAetAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbIBwqBmA/U1RBVF4AgQQRCAqWIJEjATYCJANUC1QABCAFcgcgDAcbswujonYwUoog/0zIVMZ4LB7RRSZ2bdrOroLYIavLzogv0Pey+3ulicdfqLOi50c2f292L7Zz8lH18yCmFaTNR1w7MYugVjS0ZOjd9K82MYdSVOKXYA2VLDMWVNpO1O3vKYiD2xkuCWCYQdD7Oz7wmQQ6/C/gzKcYdh2ttXqDSqSZhw6NGOdsX/bNFlNt4qFBI35CPanGowQiy+CqfGBrDPdgEhAAHcAEKNLy8HGAQmWtZPXuO9hGFWgAUMgAAEjE1CWRvbFasycsnosmcoDNNOHTehFApPslABhUEtFYaNO9TgAJPDJLHDpwAHBTdQflv58BaE/jsRtD1BXvgUvzZts8DgGgtIWdasteNm36YgLwry87kAVCFBVJpaoFabR+/BxAt8ckVKu4SgEyFq2SQk8v7VPqhedi/n3KqiMHUVQnomSCwNl0JTi4AwInSkHNEgM5uBtHIYHC57b3l8ypzMnMiUzFSPqS3hdb1dFOW+1lgXSpRaUNIIw8uz0gRwFoaUAcQFHQiVVgO3TxFhlpkpQhgfxP2A0FIvFEqUSiuq702rpe0ohWKVnSNBLlTSvRKE4IK2+pVC6dK0kU1CqrJxq+gGY2Ffl+43iMcpWdZPdgruzmTHWOcHEWqzKZvvQg20WBvlycp1ROKfKdJ6RzOZKpfF6aZaGITdIZiFXZm4aVRDOYjUJfK3MjjhjQ0XJixHcTqaMOeTPBkjUllWDCmyoyoDTWRi8Jc9LP0MTUKMl+oEKPKNMMwE7OjgsVdh2q5tkQxmqYr+arcE/2oYWQZczOKUSxpsbumCBmRKZO3UJmJq9JSPlKyJ1Y0y2T3qyU59LfydSe4SS5j/qaS8Gbqa2L68iO3tkRTLY2zrBk+ULJibDmsSuEa4/l4EC2wq58rSSP5mTIzo4zZbadq+TtxybuzrNlN58ub7PkhAU79oTtq5T8S4Jplk4GphtYeAMvfZ1SN2LRNYy6+iIU2uRxasHkvcmTnEnlH2SFetumvCzpzUbrjWaySQjgyhhEaDqNJ4OJt73M5T3PhCPTTyurZDfd5vqpPOc1RIOIt2iVZL/MqZHkaZJNKuJZOran5WhOlj2eURpEdmlzP5knTljPxGlYer8oSQZaGF/Es3j6niNbsAgwu8Uo3jhMG3I0V/Nm11pee7fi6rtks1vPm02gcbHd10xdp3Ll/OP/+d6/mDx/UtCywYDB9YZb6+0mTR1jQQmdJ6BmxnPDSCeNYE6WHFYyAKFxgwHiyECggg5q9H7I0npf9yo0HdDqfFAgKBpFaUi4CLqLaAUhUDo/8xDg9bgjbjCHmPaMORy2cIRLIzRbSLeH4B9GQNR1vOuNpKMkx8WbBoZjSubxP7aZb+hTMH8xC3An7gsHUj3fOJ+fADcHNaumBvaPC4zdSVFFscyBnXzVKvFB/YFXwVK+2hze5z8xJLG5Y4oHfRUmsTwocoDr685Waur/9f2+DHjirirP61m1X7W0qX95YEC5vWq8cp+83pqqIA560atJrjOb67CkGxbxvFfjnK6iJUAG7ddo5x+m9fkFFL3JBWkYtoccStAESxA0ipBdBJsDr1+tEb0xQENj8Hhz62z58Nmo3YkTdgc6G6zfm941P/dUnAnrDUFI0YZAcDHWEIoKHSnGEnH2O/X6r+QqxClvdqKKLoLC8Urg9Q2UUqiPZItSsP4iMj3V0N84cZKZsSMoYzNPAiqccZWpe03BxJIMacdNciU8Fm7FNuLKClF914AaBvumgTtGCkMRyqRVqOD1SGtno9IKFgu3i2pAZvIl/gt/aTKQES/rFaon1MMQG46hNgxRTjjdE/w4+tg39OfZum6jsY777JCfnmOPgeT2vpBI9no4Siyw4lF9HkYuhG4PTAz7OErscolGDf8EMnX/Jd8s2aE7jRu/OTRd5oud64IucSqs/Eq4biceyNgKNaQ1DOvpIsxZdDLhzh7JndAfzbNaNAfNm7esLJC+gJ+fG103ZOikNTzw7hffpun8cpy2IZTTQQpZ0ByM6hg6+NZ2DAEHs8V7DxfzoA10eC9/hYBbrTjBOBA9wTCES9i3U8KPFc4cqx7t3zuoJ42+iB4sWcVOb7MtLDkp+bUnXAcK6N7bU7VYYP9vRxIM4SDAz+cvOi3kzh3FF2T/qcMq1kC6QfhEHKHevYAcexKxpOymVqlXB8TRGy6tDLYswLqZVDG73ZKKI/ZSqrgzgic9dTsDHM6d2KBcOHHR/W8KR1X8UHeXuM1hSSYQm8mgpGPGGj79S8sQXxXlXxeLr+eLrgLZiB61a/dIJL4El14SrUWPAFPbchQHOg+3g9v+81QBav1+bGkazSVdDhJ60m1MWCENGRhWoV+V8i0MPG3RBrRb7cIAEQN8ZzIBIA4A75JLK+kkAiDaakc7rPI4q/O/uJR/AfiwG5bU8+/WH2ahSAwUvwBRiC+1pC/yTMLn+8EUwuCHhnhbC7R83Lyi3H2Woqisr6Ig0DWcz3YySVZKtNeFBgKz4zBmxbX0cWGrgUhrjeNeA0Z50EGjihSeF9ZTThItAQFTxNIQoMOcqF3A8q5Ii75APooXk9BfuZA+uuGaVK1M6qewZSHlvnEEr6eKaOjxJbB7hRi0AAiPphcpM35X7nQAAA==) format('woff2');}
+@font-face{font-family:'HudMonoB';src:url(data:font/woff2;base64,d09GMgABAAAAAAU0ABAAAAAACawAAATbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbIBwqBmA/U1RBVEwAgRQRCAqKfIgZATYCJAMyCzIABCAFbAcgDAcb/wYgPgRvDNCzBMdBYc0IXZRw3w1VIc3+wULO70aD3hwPz8+9nvuS3yZpRkSSUAJLQEUKSdWOQNh2xhBlQgPq//d12WuM+gdyR42xI3cm9po+7W19OK3rHibEZHoDPGS0v5jb5nEJvIt4xNM2PKo1aySOUEgWClGscoRGSmKfIECKPv3N9y+cGkjpBAu8AMekLIE0HUABblrLrPrG6ReYGxzy6uOajNMayYDbuG8PXU4b2w6swVso0UCjX7thZ41la1o0geKAAoraNiaOTRJo5LE36G6Q0te7BGpAEsIAIVAZbaxY4yiqAqkc2oAAXSxTTZcGCzjWOjEEUR3lhuWpDj+iRbpViAHYzEbHfmDDBJAoBffMxE2rADzCeD3U939hjka1CEhT0w8wXksIhYTBQDa57kx3zwSG8O9LHcZAyA1vXlp04E8h7QRIP0AmpAhCAKLIpsMQlgW5C6cZrb9Mbbw5VnNyK1KqWq16Ap8HPyA6gJXsHl4lKpaCBwxDcIYTHGEPO9gmfedggkuINiAxDPf5fIwkuiG1gOImyrJGWp7UQUxIFN6nKENLWVJNpdX+4pCBAYEyugiZEugnlZKoGeUpnmIFxJ9+RuafRtMitOV24fpQxYebMNsrjWdcPCoqX926+fkU2ar3c3f4UVWbc2uTLuyO7RpV0NXyh1pCF7tOA/1BSQ6oMRBBYaBKqBrhSECpeipTg7Ag6V8b9B2eyIRIqulQo3nZ5NLbp2dk8+NHwii/YaYW4hTRifTKuwq2Sy1MEH4bqZ9caJaYnxfBN8Xmo5jQPLlnPD/n6tqP0oeKJXK3WssErpLskaMyh8uV9ODJhbgO4Q2IO1QLDtyR1aIUCh1x8RQ5uwvbNnrqKIJtsYxfLCTDYFLP98fb+wXFzdfkt2OI2Eu/WTCJ5OSAkhfY2tyRQUctQzs9mQxpqsgqLFUb1b4e1j3S3av8bdH/O7zODnZtfv4atgMKSkcPr2qxGKyq5h7e4ezi1c3W5Xwnx83jjNx8juvilpvVrV087GyqoX0eNRD1xRNBWdMno28kKSiYRLZgqW7Os3Rgsgx1SxcPu0/s+YrP+jtBUQNF7UZp4+n85XRLFqw2Q3eDomICXA1vWw3iGiKT0jD2g9etclE5waV1Al06fErRYjFYFJKHDmdnWW82yjr/7iCn4Ay8nOPkvIFzQFHzG6tybYvF5Rr8kpaty5PrU3b2yR9x/GN5H+SV3kFG0xgwyjOxKsUrrXh+UWVEdXjjaLlBKXQxjr4lAyCcpUc4xpeTsbavJrImXBipNGib+jn4fuCSTFs20GX/wolOaiyzrmAZNy9bThUWTICw6btqZvpLDg1hTEHamcPMjK88BA8eH5Qzc9TvYZsbaLAYlhwbopnz8uN2uTM9k42yj/HX7zelWSU9gaZTyJxk6I2uCuNHxrs9WB9lXxd1FW7zfdME4J0wkChBf15po5M9Amlp7muciG0O9P4vcOIn8O3dizlYvXnzh3Y3FiL8QocEgi+rP+3soNO/B2ACG40TGqTayqVOGZcKUKSbdWWB2tzvCjLMK6+8xHXcAYHhZsnUYlKialHLKoTIZZAUFK0wUCuaxU3yQPXgfYJUxltl2IAOtTr16tZjgjuBrQYwbFfRhR000SGE4F27gEXI7SUw2RAz) format('woff2');}
+@keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#05020c"/><stop offset=".55" stop-color="#0d0520"/><stop offset="1" stop-color="#05020c"/></linearGradient>
+<radialGradient id="gl2" cx="0.2" cy="0.45" r=".6">
+  <stop offset="0" stop-color="#8527e3" stop-opacity=".30"/><stop offset=".55" stop-color="#6366f1" stop-opacity=".06"/><stop offset="1" stop-color="#8527e3" stop-opacity="0"/></radialGradient>
+<pattern id="sl3" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#ffffff" opacity=".035"/></pattern>
+<clipPath id="cp4"><rect x="0" y="0" width="1000" height="300" rx="14"/></clipPath>
+<pattern id="gp5" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#a855f7" stroke-opacity=".07" stroke-width="1"/></pattern>
+<linearGradient id="sw6" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="260" y2="0">
+  <stop offset="0" stop-color="#a855f7" stop-opacity="0"/><stop offset=".5" stop-color="#e9d5ff" stop-opacity=".95"/><stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+  <animateTransform attributeName="gradientTransform" type="translate" values="-236 0; 976 0" dur="4.5s" repeatCount="indefinite"/></linearGradient>
+<filter id="gw7" x="-20%" y="-60%" width="140%" height="220%"><feGaussianBlur stdDeviation="6.9" result="b"/><feColorMatrix in="b" values="0 0 0 0 .66  0 0 0 0 .33  0 0 0 0 .97  0 0 0 .85 0"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="gc8"><rect x="62.0" y="82.7" width="164.9" height="0"><animate attributeName="y" values="82.7;127.2;120.5;98.5;85.1;82.7;89.9;89.8;133.7;82.7" keyTimes="0;.62;.64;.66;.69;.71;.83;.85;.87;1" calcMode="discrete" dur="4.8s" begin="0.9s" repeatCount="indefinite"/><animate attributeName="height" values="0.0;15.6;11.2;8.1;20.8;0.0;15.2;10.2;7.5;0.0" keyTimes="0;.62;.64;.66;.69;.71;.83;.85;.87;1" calcMode="discrete" dur="4.8s" begin="0.9s" repeatCount="indefinite"/></rect></clipPath>
+<clipPath id="gc9"><rect x="62.0" y="82.7" width="164.9" height="0"><animate attributeName="y" values="82.7;104.7;124.0;89.0;110.4;82.7;96.6;128.2;134.2;82.7" keyTimes="0;.62;.64;.66;.69;.71;.83;.85;.87;1" calcMode="discrete" dur="4.8s" begin="0.9s" repeatCount="indefinite"/><animate attributeName="height" values="0.0;18.7;16.1;12.6;10.0;0.0;16.2;17.7;11.8;0.0" keyTimes="0;.62;.64;.66;.69;.71;.83;.85;.87;1" calcMode="discrete" dur="4.8s" begin="0.9s" repeatCount="indefinite"/></rect></clipPath>
+<linearGradient id="xp10" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#a78bfa"/><stop offset=".6" stop-color="#6366f1"/><stop offset="1" stop-color="#a855f7"/></linearGradient>
 </defs>
-
-<rect width="1000" height="240" rx="16" fill="#090e1c"/>
-<rect width="1000" height="240" rx="16" fill="url(#sbg)"/>
-
-<g font-family="ui-monospace, SFMono-Regular, 'DejaVu Sans Mono', Menlo, Consolas, monospace">
-  <text x="70" y="56" font-size="12" letter-spacing="3.4" fill="#5eead4">GITHUB  STATISTICS</text>
-  <text x="930" y="56" font-size="12" letter-spacing="1" fill="#475569" text-anchor="end">@MuizKmz</text>
-  <rect x="70" y="70" width="860" height="1" fill="#1e293b"/>
-  <rect x="70" y="69.5" width="860" height="2" fill="url(#srule)"/>
-
-  <g class="cell c0">
-    <text x="70" y="118" font-size="30" font-weight="700" fill="#22d3ee">10</text>
-    <text x="70" y="136" font-size="10" letter-spacing="1.6" fill="#64748b">REPOSITORIES</text>
-  </g>
-  <g class="cell c1">
-    <text x="280" y="118" font-size="30" font-weight="700" fill="#a78bfa">894</text>
-    <text x="280" y="136" font-size="10" letter-spacing="1.6" fill="#64748b">CONTRIBUTIONS</text>
-  </g>
-  <g class="cell c2">
-    <text x="70" y="180" font-size="30" font-weight="700" fill="#22d3ee">0</text>
-    <text x="70" y="198" font-size="10" letter-spacing="1.6" fill="#64748b">STARS EARNED</text>
-  </g>
-  <g class="cell c3">
-    <text x="280" y="180" font-size="30" font-weight="700" fill="#a78bfa">10</text>
-    <text x="280" y="198" font-size="10" letter-spacing="1.6" fill="#64748b">PULL REQUESTS</text>
-  </g>
-
-  <text x="570" y="88" font-size="10" letter-spacing="1.6" fill="#64748b">TOP LANGUAGES</text>
-  <rect x="570" y="104" width="370" height="12" rx="6" fill="#111a2e"/>
-  <g clip-path="url(#barclip)">
-  <rect class="seg s0" x="570.0" y="104" width="218.6" height="12" fill="#3572A5"/>
-  <rect class="seg s1" x="788.6" y="104" width="106.7" height="12" fill="#3178c6"/>
-  <rect class="seg s2" x="895.3" y="104" width="17.7" height="12" fill="#41b883"/>
-  <rect class="seg s3" x="913.1" y="104" width="11.2" height="12" fill="#f1e05a"/>
-  <rect class="seg s4" x="924.3" y="104" width="11.1" height="12" fill="#b07219"/>
-  <rect class="seg s5" x="935.4" y="104" width="4.6" height="12" fill="#663399"/>
-  </g>
-  <g class="cell c0">
-    <circle cx="574" cy="144" r="4" fill="#3572A5"/>
-    <text x="586" y="148" font-size="11" fill="#94a3b8">Python <tspan fill="#475569">59.1%</tspan></text>
-  </g>
-  <g class="cell c1">
-    <circle cx="764" cy="144" r="4" fill="#3178c6"/>
-    <text x="776" y="148" font-size="11" fill="#94a3b8">TypeScript <tspan fill="#475569">28.8%</tspan></text>
-  </g>
-  <g class="cell c2">
-    <circle cx="574" cy="168" r="4" fill="#41b883"/>
-    <text x="586" y="172" font-size="11" fill="#94a3b8">Vue <tspan fill="#475569">4.8%</tspan></text>
-  </g>
-  <g class="cell c3">
-    <circle cx="764" cy="168" r="4" fill="#f1e05a"/>
-    <text x="776" y="172" font-size="11" fill="#94a3b8">JavaScript <tspan fill="#475569">3.0%</tspan></text>
-  </g>
-  <g class="cell c4">
-    <circle cx="574" cy="192" r="4" fill="#b07219"/>
-    <text x="586" y="196" font-size="11" fill="#94a3b8">Java <tspan fill="#475569">3.0%</tspan></text>
-  </g>
-  <g class="cell c5">
-    <circle cx="764" cy="192" r="4" fill="#663399"/>
-    <text x="776" y="196" font-size="11" fill="#94a3b8">CSS <tspan fill="#475569">1.2%</tspan></text>
-  </g>
+<g clip-path="url(#cp4)">
+<rect x="0" y="0" width="1000" height="300" fill="url(#bg1)"/>
+<rect x="0" y="0" width="1000" height="300" fill="url(#gl2)"/>
+<rect x="0" y="0" width="1000" height="300" fill="url(#gp5)"/>
+<rect x="0" y="0" width="1000" height="300" fill="url(#sl3)"/>
 </g>
-<rect x="0.75" y="0.75" width="998.5" height="238.5" rx="16" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+<rect x="0.75" y="0.75" width="998.5" height="298.5" rx="14" fill="none" stroke="#a855f7" stroke-opacity=".28" stroke-width="1.5"/>
+<path d="M14 32V14H32 M968 14H986V32 M986 268V286H968 M32 286H14V268" fill="none" stroke="#a855f7" stroke-opacity="0.8" stroke-width="2"/>
+<circle cx="44" cy="46" r="7.800000000000001" fill="#a855f7" opacity="0"><animate attributeName="r" values="3;9" dur="1.6s" repeatCount="indefinite"/><animate attributeName="opacity" values=".55;0" dur="1.6s" repeatCount="indefinite"/></circle>
+<circle cx="44" cy="46" r="3" fill="#a855f7"/>
+<text x="56.0" y="50.0" font-family="HudMonoB, ui-monospace, Menlo, Consolas, monospace" font-size="12" letter-spacing="3" fill="#c084fc" text-anchor="start" >[ STATUS ]</text>
+<text x="170.0" y="50.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="12" letter-spacing="3" fill="#c4b5fd" text-anchor="start" >PLAYER: MUIZKMZ</text>
+<text x="956.0" y="50.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="2" fill="#4c3a6e" text-anchor="end" >SYNCED 2026-11-26</text>
+<rect x="44" y="66" width="912" height="1" fill="#24123f"/>
+<rect x="44" y="65.5" width="912" height="2" fill="url(#sw6)"/>
+<text x="44.0" y="128.0" font-family="HudDisplay7, 'Arial Black', sans-serif" font-size="18" letter-spacing="1" fill="#c4b5fd" text-anchor="start" >LV.</text>
+<g opacity=".45" style="mix-blend-mode:screen"><text x="91.0" y="136.0" font-family="HudDisplay, 'Arial Black', Impact, sans-serif" font-size="62" letter-spacing="1" fill="#ff2bd6" text-anchor="start" >03</text><text x="93.0" y="136.0" font-family="HudDisplay, 'Arial Black', Impact, sans-serif" font-size="62" letter-spacing="1" fill="#22e5ff" text-anchor="start" >03</text></g>
+<g filter="url(#gw7)">
+<text x="92.0" y="136.0" font-family="HudDisplay, 'Arial Black', Impact, sans-serif" font-size="62" letter-spacing="1" fill="#f5f3ff" text-anchor="start" >03</text>
+</g>
+<g clip-path="url(#gc8)" style="mix-blend-mode:screen"><g><animateTransform attributeName="transform" type="translate" values="0.0 0;-7.7 0;6.0 0;5.5 0;-5.4 0;0.0 0;7.8 0;6.5 0;-7.1 0;0.0 0" keyTimes="0;.62;.64;.66;.69;.71;.83;.85;.87;1" calcMode="discrete" dur="4.8s" begin="0.9s" repeatCount="indefinite"/><text x="92.0" y="136.0" font-family="HudDisplay, 'Arial Black', Impact, sans-serif" font-size="62" letter-spacing="1" fill="#ff2bd6" text-anchor="start" >03</text></g></g>
+<g clip-path="url(#gc9)" style="mix-blend-mode:screen"><g><animateTransform attributeName="transform" type="translate" values="0.0 0;4.2 0;5.1 0;3.7 0;-6.2 0;0.0 0;3.5 0;-7.2 0;8.0 0;0.0 0" keyTimes="0;.62;.64;.66;.69;.71;.83;.85;.87;1" calcMode="discrete" dur="4.8s" begin="0.9s" repeatCount="indefinite"/><text x="92.0" y="136.0" font-family="HudDisplay, 'Arial Black', Impact, sans-serif" font-size="62" letter-spacing="1" fill="#22e5ff" text-anchor="start" >03</text></g></g>
+<text x="44.0" y="166.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="2" fill="#8b7aa8" text-anchor="start" >CLASS</text>
+<text x="110.0" y="166.0" font-family="HudMonoB, ui-monospace, Menlo, Consolas, monospace" font-size="12" letter-spacing="2" fill="#e9d5ff" text-anchor="start" >SOFTWARE ENGINEER</text>
+<text x="44.0" y="188.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="2" fill="#8b7aa8" text-anchor="start" >TITLE</text>
+<text x="110.0" y="188.0" font-family="HudMonoB, ui-monospace, Menlo, Consolas, monospace" font-size="12" letter-spacing="1.5" fill="#e9d5ff" text-anchor="start" >FULL-STACK · AI · IOT</text>
+<text x="44.0" y="216.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.5" fill="#c4b5fd" text-anchor="start" >EXP 3Y 6M</text>
+<text x="340.0" y="216.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.5" fill="#c4b5fd" text-anchor="end" >NEXT LV 57%</text>
+<rect x="44" y="226" width="296" height="5" rx="2.5" fill="#2a1350"/>
+<rect x="44" y="226" width="169.4" height="5" rx="2.5" fill="url(#xp10)"><animate attributeName="width" from="0" to="169.4" dur="1.8s" fill="freeze"/></rect>
+<circle cx="213.4" cy="228.5" r="3.5" fill="#e9d5ff" opacity=".95"/>
+<rect x="44.0" y="235" width="1" height="5" fill="#4c3a6e"/>
+<rect x="68.7" y="235" width="1" height="3" fill="#4c3a6e"/>
+<rect x="93.3" y="235" width="1" height="3" fill="#4c3a6e"/>
+<rect x="118.0" y="235" width="1" height="5" fill="#4c3a6e"/>
+<rect x="142.7" y="235" width="1" height="3" fill="#4c3a6e"/>
+<rect x="167.3" y="235" width="1" height="3" fill="#4c3a6e"/>
+<rect x="192.0" y="235" width="1" height="5" fill="#4c3a6e"/>
+<rect x="216.7" y="235" width="1" height="3" fill="#4c3a6e"/>
+<rect x="241.3" y="235" width="1" height="3" fill="#4c3a6e"/>
+<rect x="266.0" y="235" width="1" height="5" fill="#4c3a6e"/>
+<rect x="290.7" y="235" width="1" height="3" fill="#4c3a6e"/>
+<rect x="315.3" y="235" width="1" height="3" fill="#4c3a6e"/>
+<rect x="340.0" y="235" width="1" height="5" fill="#4c3a6e"/>
+<text x="44.0" y="260.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="9" letter-spacing="1.5" fill="#4c3a6e" text-anchor="start" >SINCE MAY 2023  ·  1 LV = 1 YEAR SHIPPING</text>
+<rect x="376" y="96" width="1" height="170" fill="#24123f"/>
+<rect x="660" y="96" width="1" height="170" fill="#24123f"/>
+<text x="404.0" y="104.0" font-family="HudMonoB, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="3" fill="#c084fc" text-anchor="start" >ATTRIBUTES</text>
+<text x="636.0" y="104.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="9" letter-spacing="2" fill="#4c3a6e" text-anchor="end" >12 MO</text>
+<g style="animation:rise .7s ease-out 0.0s backwards">
+<text x="404.0" y="134.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.5" fill="#c4b5fd" text-anchor="start" >CONTRIBUTIONS</text>
+<rect x="517" y="130" width="76" height="1" fill="#24123f"/>
+<text x="636.0" y="134.0" font-family="HudDisplay7, 'Arial Black', sans-serif" font-size="14" letter-spacing="0.5" fill="#f5f3ff" text-anchor="end" >894</text>
+</g>
+<g style="animation:rise .7s ease-out 0.1s backwards">
+<text x="404.0" y="158.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.5" fill="#c4b5fd" text-anchor="start" >ACTIVE DAYS</text>
+<rect x="501" y="154" width="93" height="1" fill="#24123f"/>
+<text x="636.0" y="158.0" font-family="HudDisplay7, 'Arial Black', sans-serif" font-size="14" letter-spacing="0.5" fill="#f5f3ff" text-anchor="end" >244</text>
+</g>
+<g style="animation:rise .7s ease-out 0.2s backwards">
+<text x="404.0" y="182.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.5" fill="#c4b5fd" text-anchor="start" >LONGEST STREAK</text>
+<rect x="525" y="178" width="80" height="1" fill="#24123f"/>
+<text x="636.0" y="182.0" font-family="HudDisplay7, 'Arial Black', sans-serif" font-size="14" letter-spacing="0.5" fill="#f5f3ff" text-anchor="end" >4D</text>
+</g>
+<g style="animation:rise .7s ease-out 0.3s backwards">
+<text x="404.0" y="206.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.5" fill="#c4b5fd" text-anchor="start" >CURRENT STREAK</text>
+<rect x="525" y="202" width="80" height="1" fill="#24123f"/>
+<text x="636.0" y="206.0" font-family="HudDisplay7, 'Arial Black', sans-serif" font-size="14" letter-spacing="0.5" fill="#f5f3ff" text-anchor="end" >4D</text>
+</g>
+<g style="animation:rise .7s ease-out 0.4s backwards">
+<text x="404.0" y="230.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.5" fill="#c4b5fd" text-anchor="start" >PULL REQUESTS</text>
+<rect x="517" y="226" width="93" height="1" fill="#24123f"/>
+<text x="636.0" y="230.0" font-family="HudDisplay7, 'Arial Black', sans-serif" font-size="14" letter-spacing="0.5" fill="#f5f3ff" text-anchor="end" >10</text>
+</g>
+<g style="animation:rise .7s ease-out 0.5s backwards">
+<text x="404.0" y="254.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.5" fill="#c4b5fd" text-anchor="start" >REPOSITORIES</text>
+<rect x="509" y="250" width="101" height="1" fill="#24123f"/>
+<text x="636.0" y="254.0" font-family="HudDisplay7, 'Arial Black', sans-serif" font-size="14" letter-spacing="0.5" fill="#f5f3ff" text-anchor="end" >10</text>
+</g>
+<text x="688.0" y="104.0" font-family="HudMonoB, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="3" fill="#c084fc" text-anchor="start" >SKILL AFFINITY</text>
+<text x="688.0" y="134.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.2" fill="#c4b5fd" text-anchor="start" >PYTHON</text>
+<text x="956.0" y="134.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="1" fill="#8b7aa8" text-anchor="end" >59.9%</text>
+<rect x="688" y="140" width="268" height="4" rx="2" fill="#1c0b36"/>
+<rect x="688" y="140" width="160.5" height="4" rx="2" fill="#a855f7"><animate attributeName="width" from="0" to="160.5" dur="1.2s" begin="0.20s" fill="freeze"/></rect>
+<text x="688.0" y="162.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.2" fill="#c4b5fd" text-anchor="start" >TYPESCRIPT</text>
+<text x="956.0" y="162.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="1" fill="#8b7aa8" text-anchor="end" >29.2%</text>
+<rect x="688" y="168" width="268" height="4" rx="2" fill="#1c0b36"/>
+<rect x="688" y="168" width="78.2" height="4" rx="2" fill="#8b5cf6"><animate attributeName="width" from="0" to="78.2" dur="1.2s" begin="0.32s" fill="freeze"/></rect>
+<text x="688.0" y="190.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.2" fill="#c4b5fd" text-anchor="start" >VUE</text>
+<text x="956.0" y="190.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="1" fill="#8b7aa8" text-anchor="end" >4.9%</text>
+<rect x="688" y="196" width="268" height="4" rx="2" fill="#1c0b36"/>
+<rect x="688" y="196" width="13.0" height="4" rx="2" fill="#6366f1"><animate attributeName="width" from="0" to="13.0" dur="1.2s" begin="0.44s" fill="freeze"/></rect>
+<text x="688.0" y="218.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.2" fill="#c4b5fd" text-anchor="start" >JAVASCRIPT</text>
+<text x="956.0" y="218.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="1" fill="#8b7aa8" text-anchor="end" >3.0%</text>
+<rect x="688" y="224" width="268" height="4" rx="2" fill="#1c0b36"/>
+<rect x="688" y="224" width="8.1" height="4" rx="2" fill="#c084fc"><animate attributeName="width" from="0" to="8.1" dur="1.2s" begin="0.56s" fill="freeze"/></rect>
+<text x="688.0" y="246.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.2" fill="#c4b5fd" text-anchor="start" >JAVA</text>
+<text x="956.0" y="246.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="1" fill="#8b7aa8" text-anchor="end" >3.0%</text>
+<rect x="688" y="252" width="268" height="4" rx="2" fill="#1c0b36"/>
+<rect x="688" y="252" width="8.1" height="4" rx="2" fill="#7c3aed"><animate attributeName="width" from="0" to="8.1" dur="1.2s" begin="0.68s" fill="freeze"/></rect>
+<rect x="404" y="179" width="501" height="2" fill="#ff2bd6" opacity="0"><animate attributeName="opacity" values="0;.7;0;.45;0" keyTimes="0;.02;.035;.05;1" dur="6s" begin="1.92s" repeatCount="indefinite"/></rect>
+<rect x="264" y="229" width="262" height="3" fill="#22e5ff" opacity="0"><animate attributeName="opacity" values="0;.7;0;.45;0" keyTimes="0;.02;.035;.05;1" dur="6s" begin="0.39s" repeatCount="indefinite"/></rect>
 </svg>

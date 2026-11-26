@@ -1,20 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 8" width="1000" height="8" role="img" aria-label="">
-  <defs>
-    <linearGradient id="base" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1000" y2="0">
-      <stop offset="0"    stop-color="#22d3ee" stop-opacity="0"/>
-      <stop offset="0.2"  stop-color="#22d3ee" stop-opacity="0.55"/>
-      <stop offset="0.5"  stop-color="#a78bfa" stop-opacity="0.75"/>
-      <stop offset="0.8"  stop-color="#22d3ee" stop-opacity="0.55"/>
-      <stop offset="1"    stop-color="#22d3ee" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="pulse" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="220" y2="0">
-      <stop offset="0"   stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#e8fbff" stop-opacity="0.95"/>
-      <stop offset="1"   stop-color="#ffffff" stop-opacity="0"/>
-      <animateTransform attributeName="gradientTransform" type="translate"
-                        values="-260 0; 1060 0" dur="3.4s" repeatCount="indefinite"/>
-    </linearGradient>
-  </defs>
-  <rect x="0" y="3" width="1000" height="1.6" rx="0.8" fill="url(#base)"/>
-  <rect x="0" y="2.6" width="1000" height="2.4" rx="1.2" fill="url(#pulse)"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 28" width="1000" height="28" role="img" aria-label="">
+<title></title>
+<defs>
+<style>
+@font-face{font-family:'HudMono';src:url(data:font/woff2;base64,d09GMgABAAAAAAG4AA8AAAAAA5QAAAFkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGyAcKgZgP1NUQVReADwRCAogPQE2AiQDCAsIAAQgBXIHIAwHG6MCCB6HsdvkRrEU7fWPIUY8fI6h7ycp8IBZISoC1kRKoCQQsrJ1UxNmrrf0jKQmtTSFlrfZcdDWGQTibUHiMUYcWJqk/EDwoB7S46upyjlmowKtRhkj1q7fukOzArUCAq2mmCaxWueFozcuGYZ7UNKeeK2B9DTtwZb5jzhkQawk0QIgAGDzavw0ztzc939yX8xCQJqSejBOgxCaJQySMUm6ffrMjcDZG0cvRJfQaIQZElKUeE0cIn4ja56+ZoqNfiBAQsYgWWCQYhoaFSEZZ26t6E79U7sFIEStukAGjQgUtAIKICg777fd2XxxCG8O+zYQSEtKv6WDFh/uWvqvOee/0Nst6O1pW6qpIy9HowSC8yztQWILRCATQOwDdbIivugCNFgti9Ii6SSpoF1nFB3RxSPe20+rKbY56bSbLjjqmt1OOuu0M27Y5IajLjjruG0uu+ioSzJQT1qwLH+M+uBDeQE=) format('woff2');}
+
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<linearGradient id="dv1" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#a855f7" stop-opacity="0"/><stop offset=".5" stop-color="#a855f7" stop-opacity=".75"/><stop offset="1" stop-color="#a855f7" stop-opacity="0"/></linearGradient>
+<linearGradient id="sw2" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="260" y2="0">
+  <stop offset="0" stop-color="#a855f7" stop-opacity="0"/><stop offset=".5" stop-color="#e9d5ff" stop-opacity=".95"/><stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+  <animateTransform attributeName="gradientTransform" type="translate" values="-180 0; 920 0" dur="6s" repeatCount="indefinite"/></linearGradient>
+</defs>
+<rect x="0" y="14" width="1000" height="1" fill="url(#dv1)"/>
+<rect x="100" y="14" width="800" height="1" fill="none"/>
+<rect x="100" y="13.5" width="800" height="2" fill="url(#sw2)"/>
+<rect x="468.0" y="12.5" width="4" height="4" fill="#a855f7" opacity="0.7" transform="rotate(45 470 14.5)"/>
+<rect x="497.0" y="11.5" width="6" height="6" fill="#c084fc" opacity="1" transform="rotate(45 500 14.5)"/>
+<rect x="528.0" y="12.5" width="4" height="4" fill="#a855f7" opacity="0.7" transform="rotate(45 530 14.5)"/>
+<text x="40.0" y="18.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="2" fill="#4c3a6e" text-anchor="start" >///</text>
+<text x="960.0" y="18.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="2" fill="#4c3a6e" text-anchor="end" >///</text>
 </svg>

@@ -1,35 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 64" width="1000" height="64" role="img" aria-label="Keep building. Keep learning. Keep improving.">
-  <title>Keep building. Keep learning. Keep improving.</title>
-  <defs>
-    <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#080d1a"/><stop offset="0.5" stop-color="#0c1226"/><stop offset="1" stop-color="#080a14"/>
-    </linearGradient>
-    <linearGradient id="ftrace" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="240" y2="0">
-      <stop offset="0"   stop-color="#22d3ee" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#e8fbff" stop-opacity="0.9"/>
-      <stop offset="1"   stop-color="#a78bfa" stop-opacity="0"/>
-      <animateTransform attributeName="gradientTransform" type="translate"
-                        values="-280 0; 1060 0" dur="4s" repeatCount="indefinite"/>
-    </linearGradient>
-    <style>
-      .dot { animation: fpulse 2.6s ease-in-out infinite; }
-      .dot.r { animation-delay: -1.3s; }
-      @keyframes fpulse { 0%,100% { opacity:.25 } 50% { opacity:1 } }
-      @media (prefers-reduced-motion: reduce) { .dot { animation:none; opacity:.7 } }
-    </style>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 110" width="1000" height="110" role="img" aria-label="Quest continues — keep building, keep learning, keep improving">
+<title>Quest continues — keep building, keep learning, keep improving</title>
+<defs>
+<style>
+@font-face{font-family:'HudDisplay7';src:url(data:font/woff2;base64,d09GMgABAAAAAAP4ABAAAAAACOQAAAOcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGi4bgTwcKgZgP1NUQVQqAGwRCAqIdIYzATYCJANECyQABCAFPgcgDAcbZwYAHoVNWTf25JQt5xcCgsMR8a+T3euf2mZKlmAQC0pisaZWIjSGEo/SGJT37+wmeQpr5QNQlUI8Sb4BPrb8Q5zs3bbJlAc62e6yqDwKZEYZdhdHSWB//o+ZroLGkRQtNJ3Zj0WVZlM+L5tgPN8uLEOPUvCA2qaOYuMmiXDQA+gPzv9PAnYAQUgIICB7w/juq4kc0TU0OhnSvaC5FhIW+JZ03Uoaa2GoI2JRBmyTo7HyUq68hYqXKluhcrWaESYUg6WjZ8ATiGSE3FWUsZ8e64n+j/g+IfSaQIK9YzptkeNZlI2xv8rgkL64/85vrDKnDx1SJy9DLz0JDtpJ0wFPvE4ucEw2lGGgf6a8E5swVur4KxEk4hfv2LbSu+BEkV/kJDgQcEMfZeXNL47eTiZ6EkADBQ5M1nOx0sGFgkGNFShEmAjxEqUWOAUIjhOjCClfoX9nO9PpTnWyEx1DKL0g/SdjdcffwRWyAXku6pJumNMMaSJ1Ml4t+jZQUYSrxpKVdYLJj0kK9zx9iIHnply4w4tzb50DuxABpkMkU1aYhDnLgG2W9+6BsWrgtn3AOHvTJKWJc1cS1qqxPCtmznPQBEfhTWWcdP88SEQCGX/ePk+Y/gQMc3HdpImIlYD4edYeSPksHsVXmHYTDftloIGSMp41ccWlJH8F589WssWnHgbtk7AwH8fYupzJp0Ci4UZpjmfnhR6SFxZEUslXVPHlniFq7hv1mPonVw3Rfl75OX1ay5VrXCu3myvlrvGa5uqbXHW+6BapCxi2Vs39owYvnL6b417Isy20sqzVEi6VmwowsbRQCs8ZXNRxPCd5cPoeARZgQilmHLhS679p+4ztm/pruNDDe3yOtLvmWBxb6BembtXMxWIXg+WcdhceU5u07c/ERaoYIAWoi+UJ2ybB4zs9OlqD+1zMujKuS+5qihLcL0gO5o6JkoaqxyUZ55p5j3vOg8eh7EY2CffP9DvOq3m/1TP4y3fd6RbuKAngT1SC1jfddeLJpNtc3DIdMt3vJEk/LaT9LlzEpjtrAuwC7VbjjwYgoAn8Hp/6Jk/2/mNgmPfAmxEdAH5jkpZiAtRnuIfQoYDAp8L+YxDoCoS6TM9vAysYnuUPrwqEZ/vn7/eFu8ewrFHwKP4Vb4J7+ee94VpDcNADC1XmxhGQds6YJaFOKpYYZDKCMsBSIcDOcHsWBvBQp1qxNCUqlCnXvDbyX8eRanyR/9qLnQ8AAAA=) format('woff2');}
+@font-face{font-family:'HudMono';src:url(data:font/woff2;base64,d09GMgABAAAAAAT0ABAAAAAACYQAAASbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbIBwqBmA/U1RBVF4AbBEICopoiDIBNgIkAy4LLgAEIAVyByAMBxsEB1GUDs5+gK8LeDJ8XuVQYlGJiDph0eEYlxXhthih9lo9IRxIn/kyQIzi4Z+1b/e9me+zYk5WSZJIYolGp5LxvCkhHiJtlyxWt3GY+c/LfuskhZkZB01+BnqvaYaFdV3IR/smVT4ueFojDm5FdOIg8ShTt/qauyyzAqFBkDxBudVSa+j/QnDYaQotnyuApa0tpbV9/u/n66JpOixtsKm9dxcdvDMcRfJowgOKamqfyLB+gf/HdGYi1vrbTAIVIIUwDB1G16x5cXFNFuCphLoGxtDXbcrSfO5fXwcIG4nUv8xr9UKDfJTXAJfhZ8cdeJ0Fkg7wkFC0vTQA+CgZLf79nwByxSHjKLme+7suagihLTGqwKp88E19Tvj5pYbTgNA0bZs8llHGC+IOEJ9R4A35FoeM8CCOCJmqYgdFwIeXrgGGDSqkRcedo1fEqjijNfAMjon5E+oDez764J23Xp1Q8ISoGUAa1+cQpoldchvJL+8XyPwhSx6nkXln2p3Fqlt1V6uqOTc83N/XmezfaQ8PVNW/gg9WjtpQSylmOzUVsmcirnrT1JST1/Q01pOToFtT6DcBck1iPe3ENTGBpZVlU48eHTIfJoX3DfGSGmFx7bTX0yqsUuRkRmfAYVQmdAgalD558FjuBy+FHz4dax8Gu+jpWAdacnTyMGCmvw7tQmXgPpi4qfA4VTYl3Fx0AkDYYa4BK/G1BW/ag04voLNKsL4xAeO+mpLapgiFynpykDBKrBuIzwSeJnPyQg8afzuB+YkVHzwavP94ZCnmcG7cdN+pHmB9D3TXYdu46BT83uzw3dnS3EeLVRnW+6Zs5b+/NSpKtvknF4FV+eIK1gDF5XwSCCtxUTlbQjOQICBLG2lIxmUgXcKIKipxUOaetkEir+YSOXkNqaCtKayFBj1MZP33WQvqnBGMa2lFaS5GAVT+vGD7cVJQqvZBcgguuEf4fHavyHIl8vfyEqgW/54Hze2V7hXWES3oxd9ug0EAJgPGDxdi8ph/L7TvB+YcSFZ2In1oi6y/rXKgTYM0ePS4decjoMTQUleYq86ZTzpkb1MWu0JdYpMPAQisyMePi4yXVwAPUa2RxUKsOssTNKQNNA0JZUEDAsqDMh9UtWJpJWSlVXZ91c6s8Z2ERkfRGi2xE3yl5eJe17+91YglVSwDJZXMy6mqxXQSyHCKWl3fw9WfhEZPMbRGR0y10gyFuS3IRXQNubJi7xKZoYAr0FCyrBz2bk2MIYRv1RNiW2UeW9XbAhyTMiShZGR4di77ojZWF1LYbiDpZnX54P/Gx8J74fFGAGlo7aoOKAkglWqKJNRkGqumpRP8959/XL4j8+bb0NC1m1szy1lZf5B5MHkmIWEmOeUxVPw4+bQ7EljmHTwVAAjk4fLp3yL07sDJg3ZR/ISvX+zC8+839ZW81t/QlCD4ugbyGsALOClkgZ+1BO6aMnUqOZRr1sukhLTi6cjckGjvWDzjdvZIwfs1nOciyo7UT5spqPTnl33IAez0/zuoa91V9Rr1a1Oth129Zo2a9NHrU61Ns1qCTu2qdXAB6nvwo4p+GXWLpwA=) format('woff2');}
+@font-face{font-family:'HudMonoB';src:url(data:font/woff2;base64,d09GMgABAAAAAALwABAAAAAABXAAAAKYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbIBwqBmA/U1RBVEwAZBEICoMwgl4BNgIkAxQLFAAEIAVsByAMBxv2AyCeg3FD3ygRSiwxmGfK3fp49RF8v4bu+3cXApJpKwFRlR2xKo8HNgqVSjq+7OoCPrC/fCdtCSD+zWxwspOQiMrkuF3/A8AKzP/Csqmb/L/Fx6rEQ/wLKE8swwQTWAM8faLEujAQydId2khXjMqOjmIJVAGSEAohUKFLj1i3wTsYTDksA2ARI8akdkIXTxO5EDcCy3k6lDZRkJ6QD4GtbXecYBj2kCinfPjFLWsA79HneCZYugGyhdBGQBpJT4A+hRDKJDRJGJKunUknSODc5YRskrCQa5MgStI3SIcg/QNkQoo6ECAhQ5NMoEluF6hTJ0Of9XwEixAlZtmSBl27/MOmdUvmzJop4O4hlhEG5aABpbgFPgLIARELqronmcJlZZVFtSoZxqHK/W+GRfpG5cI41Ip4cC9LLpwd+eb2AHD6yd2dIqf2ltNxTarbNw2twhNw6m0Iu+6K3X6C2j2TkNtb1N7ccGgVUa0ir8yOVIa8WBbpW5UK44SnkNJ9ZX/wS0oOzW3kWG2LZ4vfWeXAfK7b9X3kUVr6sdPpvfuJ/2xI45fyKzJWJIQXJoe7sFLLiKJk9hk65V6XDCyjhaqm7Q3NTfe0VSbKgkRDRKILAmzNolINXDMrshF1RyvfyCBGU7UxM1QsVCQqP8jWKjbLCH9TdwgBsZOKD9btRUOB4FRCz451miuo5wwLn3LmxIuGjoeK0JzTxhefAwik2fzv+39OnLD1fyYl+wEwfzUxCMw/XfxCbLlzqzNboUQCwbuV6ZCBa21AooeIdEikcOZWmdHqMx6CQLlJAYKWCmtQRF4uKWPMBFXKVIkyVK0qTW9ap0KfNfJkSxYmRYY06QgeCAmyZUgSKE+OBLkowHIMz6l/Ii1/6nM=) format('woff2');}
 
-  <rect width="1000" height="64" rx="14" fill="#090e1c"/>
-  <rect width="1000" height="64" rx="14" fill="url(#fbg)"/>
-
-  <rect x="70" y="0" width="860" height="1" fill="#1e293b"/>
-  <rect x="70" y="-0.5" width="860" height="2" fill="url(#ftrace)"/>
-
-  <circle class="dot"   cx="70"  cy="32" r="3" fill="#22d3ee"/>
-  <circle class="dot r" cx="930" cy="32" r="3" fill="#a78bfa"/>
-
-  <text x="500" y="37" text-anchor="middle" font-size="11.5" letter-spacing="3.2" fill="#64748b"
-        font-family="ui-monospace, SFMono-Regular, 'DejaVu Sans Mono', Menlo, Consolas, monospace">KEEP BUILDING<tspan fill="#22d3ee"> · </tspan>KEEP LEARNING<tspan fill="#a78bfa"> · </tspan>KEEP IMPROVING</text>
-
-  <rect x="0.75" y="0.75" width="998.5" height="62.5" rx="14" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#05020c"/><stop offset=".55" stop-color="#0d0520"/><stop offset="1" stop-color="#05020c"/></linearGradient>
+<radialGradient id="gl2" cx="0.5" cy="0.5" r=".6">
+  <stop offset="0" stop-color="#8527e3" stop-opacity=".30"/><stop offset=".55" stop-color="#6366f1" stop-opacity=".06"/><stop offset="1" stop-color="#8527e3" stop-opacity="0"/></radialGradient>
+<pattern id="sl3" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#ffffff" opacity=".035"/></pattern>
+<clipPath id="cp4"><rect x="0" y="0" width="1000" height="110" rx="14"/></clipPath>
+<linearGradient id="sw5" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="260" y2="0">
+  <stop offset="0" stop-color="#a855f7" stop-opacity="0"/><stop offset=".5" stop-color="#e9d5ff" stop-opacity=".95"/><stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+  <animateTransform attributeName="gradientTransform" type="translate" values="-236 0; 976 0" dur="5.5s" repeatCount="indefinite"/></linearGradient>
+</defs>
+<g clip-path="url(#cp4)">
+<rect x="0" y="0" width="1000" height="110" fill="url(#bg1)"/>
+<rect x="0" y="0" width="1000" height="110" fill="url(#gl2)"/>
+<rect x="0" y="0" width="1000" height="110" fill="url(#sl3)"/>
+</g>
+<rect x="0.75" y="0.75" width="998.5" height="108.5" rx="14" fill="none" stroke="#a855f7" stroke-opacity=".28" stroke-width="1.5"/>
+<circle cx="44" cy="42" r="7.800000000000001" fill="#a855f7" opacity="0"><animate attributeName="r" values="3;9" dur="1.6s" repeatCount="indefinite"/><animate attributeName="opacity" values=".55;0" dur="1.6s" repeatCount="indefinite"/></circle>
+<circle cx="44" cy="42" r="3" fill="#a855f7"/>
+<text x="56.0" y="46.0" font-family="HudMonoB, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="3" fill="#c084fc" text-anchor="start" >[ SYSTEM ]</text>
+<text x="160.0" y="46.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="2" fill="#c4b5fd" text-anchor="start" >QUEST CONTINUES  —  DAILY QUEST: SHIP SOMETHING</text>
+<text x="956.0" y="46.0" font-family="HudMono, ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="3" fill="#4c3a6e" text-anchor="end" >END OF FILE</text>
+<text x="500.0" y="82.0" font-family="HudDisplay7, 'Arial Black', sans-serif" font-size="13" letter-spacing="4" fill="#e9d5ff" text-anchor="middle" >KEEP BUILDING  ·  KEEP LEARNING  ·  KEEP IMPROVING</text>
+<rect x="44" y="60" width="912" height="1" fill="#24123f"/>
+<rect x="44" y="59.5" width="912" height="2" fill="url(#sw5)"/>
 </svg>

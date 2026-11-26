@@ -1,4 +1,4 @@
-name: Generate stats card
+name: Generate status card
 
 on:
   schedule:
@@ -18,20 +18,23 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-python@v5
         with:
-          node-version: "20"
+          python-version: "3.12"
 
-      - name: Render stats card
+      - name: Install font tools
+        run: pip install fonttools brotli
+
+      - name: Render status card
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           LOGIN: ${{ github.repository_owner }}
-        run: node scripts/gen-stats.mjs
+        run: python scripts/gen_stats.py
 
       - name: Commit if changed
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/stats.svg
-          git diff --staged --quiet || git commit -m "chore: refresh stats card [skip ci]"
+          git diff --staged --quiet || git commit -m "chore: refresh status card [skip ci]"
           git push
